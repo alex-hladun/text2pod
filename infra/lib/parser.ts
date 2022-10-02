@@ -38,7 +38,7 @@ interface PodEpisode {
   // pubDate: 'Wed Aug 11 2021 22:36:13 GMT-0700 (Mountain Standard Time)',
   "itunes:duration": string;
 }
-const parseAndAdd = async () => {
+const parseAndAdd = async (videoUrl?: string) => {
   const podFile = await getObject("hladun-site", "pod.xml");
   // Local podFile
   // const podFile = await fsPromises.readFile("test.xml", "utf8");
@@ -47,7 +47,6 @@ const parseAndAdd = async () => {
   let parseJob: Podcast = parser.parse(podFile);
 
   const itemList = parseJob.rss.channel.item;
-  console.log("🚀 ~ file: parser.ts ~ line 33 ~ itemList", itemList);
   itemList.forEach((item) => console.log(item));
 
   const newPodFile = parseJob;
