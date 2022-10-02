@@ -1,5 +1,7 @@
 {
   "name": "infra",
+  "module": "esnext",
+  "target": "es2022",
   "version": "0.1.0",
   "bin": {
     "infra": "bin/infra.js"
@@ -23,6 +25,7 @@
   "dependencies": {
     "aws-cdk-lib": "2.3.0",
     "constructs": "^10.0.0",
+    "fast-xml-parser": "^4.0.10",
     "source-map-support": "^0.5.16"
   }
 }
