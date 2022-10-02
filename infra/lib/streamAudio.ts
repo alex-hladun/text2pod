@@ -57,6 +57,3 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
       console.log("Upload complete ✅");
     });
 };
-
-const testUrl = "https://www.youtube.com/watch?v=98JGfgnXE1E";
-streamAudio(testUrl);
