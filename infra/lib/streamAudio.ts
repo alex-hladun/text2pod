@@ -7,7 +7,7 @@ import { Upload } from "@aws-sdk/lib-storage";
 import { S3Client } from "@aws-sdk/client-s3";
 const stream = require("stream");
 
-export const downloadAudio = async (url: string, overrideTitle?: string) => {
+export const streamAudio = async (url: string, overrideTitle?: string) => {
   const videoInfo = await ytdl.getInfo(url);
 
   const relevantDetails = {
@@ -22,10 +22,6 @@ export const downloadAudio = async (url: string, overrideTitle?: string) => {
     "🚀 ~ file: downloadAudio.ts ~ line 15 ~ relevantDetails",
     relevantDetails
   );
-
-  // const stream = ytdl(url, {
-  //   filter: "audioonly"
-  // }).pipe(fs.createWriteStream("test.mp3"));
 
   const ytdlStream = ytdl(url, {
     filter: "audioonly",
