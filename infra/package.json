@@ -28,7 +28,10 @@
     "constructs": "^10.0.0",
     "dayjs": "^1.11.5",
     "fast-xml-parser": "^4.0.10",
+    "ffmpeg-static": "^5.1.0",
+    "ffprobe-static": "^3.1.0",
     "fluent-ffmpeg": "^2.1.2",
+    "path": "^0.12.7",
     "source-map-support": "^0.5.16",
     "ytdl-core": "^4.11.2"
   }

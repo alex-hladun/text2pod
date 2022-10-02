@@ -2,9 +2,17 @@ const fs = require("fs");
 
 const ytdl = require("ytdl-core");
 const ffmpeg = require("fluent-ffmpeg");
+const ffmpegStatic = require("ffmpeg-static");
+const ffprobeStatic = require("ffprobe-static");
+
 import { Upload } from "@aws-sdk/lib-storage";
 import { S3Client } from "@aws-sdk/client-s3";
 
+console.log("🚀 ~ file: streamAudio.ts ~ line 37 ~ ffmpegStatic", ffmpegStatic);
+console.log(
+  "🚀 ~ file: streamAudio.ts ~ line 39 ~ ffprobeStatic.path",
+  ffprobeStatic.path
+);
 export const streamAudio = async (url: string, overrideTitle?: string) => {
   const videoInfo = await ytdl.getInfo(url);
 
@@ -30,8 +38,8 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
 
   return new Promise((resolve, reject) => {
     ffmpeg(ytdlStream)
-      .setFfmpegPath("./ffmpeg/ffmpeg")
-      .setFfprobePath("./ffmpeg/ffprobe")
+      .setFfmpegPath(ffmpegStatic)
+      .setFfprobePath(ffprobeStatic.path)
       .audioBitrate(320)
       .on("error", function (err) {
         console.log("🚀 ~ file: downloadAudio.ts ~ line 38 ~ err", err);
