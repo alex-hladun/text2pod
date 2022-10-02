@@ -9,7 +9,9 @@ export class Infra extends Construct {
     super(scope, id);
     const infraFunction = new NodejsFunction(this, "function", {
       environment: {
-        FLUENTFFMPEG_COV: ""
+        FLUENTFFMPEG_COV: "",
+        FFMPEG_PATH: "./ffmpeg/ffmpeg",
+        FFPROBE_PATH: "./ffmpeg/ffprobe"
       },
       timeout: Duration.seconds(300)
     });

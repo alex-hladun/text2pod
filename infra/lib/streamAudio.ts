@@ -28,32 +28,46 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
 
   console.log(`Downloading ${overrideTitle || relevantDetails.title}...`);
 
-  ffmpeg(ytdlStream)
-    .audioBitrate(320)
-    .on("error", function (err) {
-      console.log("🚀 ~ file: downloadAudio.ts ~ line 38 ~ err", err);
-    })
-    .save(`./${relevantDetails.videoId}.mp3`)
-    .on("end", async () => {
-      console.log(`Download complete ✅. Uploading...`);
-      const readStream = fs.createReadStream(
-        `./${relevantDetails.videoId}.mp3`
-      );
+  return new Promise((resolve, reject) => {
+    ffmpeg(ytdlStream)
+      .setFfmpegPath("./ffmpeg/ffmpeg")
+      .setFfprobePath("./ffmpeg/ffprobe")
+      .audioBitrate(320)
+      .on("error", function (err) {
+        console.log("🚀 ~ file: downloadAudio.ts ~ line 38 ~ err", err);
+        reject(err);
+      })
+      .save(`./${relevantDetails.videoId}.mp3`)
+      .on("end", async () => {
+        console.log(`Download complete ✅. Uploading...`);
+        const readStream = fs.createReadStream(
+          `./${relevantDetails.videoId}.mp3`
+        );
 
-      const parallelUploads3 = new Upload({
-        client: new S3Client({}),
-        params: {
-          Bucket: "hladun-site",
-          Key: `pod/${relevantDetails.videoId}.mp3`,
-          Body: readStream
-        },
-        leavePartsOnError: false // optional manually handle dropped parts
-      });
+        const parallelUploads3 = new Upload({
+          client: new S3Client({}),
+          params: {
+            Bucket: "hladun-site",
+            Key: `pod/${relevantDetails.videoId}.mp3`,
+            Body: readStream
+          },
+          leavePartsOnError: false // optional manually handle dropped parts
+        });
 
-      parallelUploads3.on("httpUploadProgress", (progress) => {
-        console.log(progress);
+        parallelUploads3.on("httpUploadProgress", (progress) => {
+          console.log(progress);
+        });
+        await parallelUploads3.done();
+        console.log("Upload complete ✅");
+        resolve("Upload complete ✅");
       });
-      await parallelUploads3.done();
-      console.log("Upload complete ✅");
-    });
+  });
 };
+
+const args = process.argv.slice(2);
+if (args[0] === "local") {
+  console.log("🚀 ~ file: streamAudio.ts ~ line 9 ~ args", args);
+  streamAudio(
+    "https://www.youtube.com/watch?v=Uq9gPaIzbe8&ab_channel=SamSmithVEVO"
+  );
+}

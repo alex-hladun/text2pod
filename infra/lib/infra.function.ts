@@ -7,12 +7,15 @@ export const handler = async (
 ): Promise<APIGatewayProxyResult> => {
   console.log(`Event: ${JSON.stringify(event, null, 2)}`);
   console.log(`Context: ${JSON.stringify(context, null, 2)}`);
+  console.log(`ProcessENV: ${JSON.stringify(process.env)}`);
+
+  const url = event?.url;
 
   const testUrl =
     "https://www.youtube.com/watch?v=Uq9gPaIzbe8&ab_channel=SamSmithVEVO";
 
   try {
-    await streamAudio(testUrl);
+    await streamAudio(url || testUrl);
 
     return {
       statusCode: 200,
