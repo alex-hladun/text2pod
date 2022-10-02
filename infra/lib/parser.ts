@@ -1,5 +1,12 @@
 import { XMLBuilder, XMLParser } from "fast-xml-parser";
 import { promises as fsPromises } from "fs";
+import {
+  S3Client,
+  AbortMultipartUploadCommand,
+  GetObjectCommand
+} from "@aws-sdk/client-s3";
+import { getObject } from "./getObject";
+import { putObject } from "./putObject";
 
 interface Podcast {
   rss: {
@@ -32,10 +39,12 @@ interface PodEpisode {
   "itunes:duration": string;
 }
 const parseAndAdd = async () => {
-  const parser = new XMLParser();
+  const podFile = await getObject("hladun-site", "pod.xml");
+  // Local podFile
+  // const podFile = await fsPromises.readFile("test.xml", "utf8");
 
-  const xmlFile = await fsPromises.readFile("test.xml", "utf8");
-  let parseJob: Podcast = parser.parse(xmlFile);
+  const parser = new XMLParser();
+  let parseJob: Podcast = parser.parse(podFile);
 
   const itemList = parseJob.rss.channel.item;
   console.log("🚀 ~ file: parser.ts ~ line 33 ~ itemList", itemList);
@@ -45,7 +54,11 @@ const parseAndAdd = async () => {
 
   const builder = new XMLBuilder({});
   const xmlOutput = builder.build(newPodFile);
-  fsPromises.writeFile("newOutput.xml", xmlOutput);
+
+  // Write file locally
+  // fsPromises.writeFile("newOutput.xml", xmlOutput);
+
+  await putObject("hladun-site", "pod2.xml", xmlOutput);
 };
 
 parseAndAdd();
