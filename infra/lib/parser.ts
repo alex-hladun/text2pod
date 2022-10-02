@@ -14,11 +14,23 @@ interface Podcast {
       "itunes:owner": any;
       "itunes:image": any;
       "itunes:category": string;
-      item: any[];
+      item: PodEpisode[];
     };
   };
 }
 
+interface PodEpisode {
+  title: string;
+  "itunes:author": string;
+  "itunes:subtitle": string;
+  "itunes:summary": string;
+  "itunes:image": string;
+  enclosure: string;
+  guid: string;
+  pubDate: string;
+  // pubDate: 'Wed Aug 11 2021 22:36:13 GMT-0700 (Mountain Standard Time)',
+  "itunes:duration": string;
+}
 const parseAndAdd = async () => {
   const parser = new XMLParser();
 
