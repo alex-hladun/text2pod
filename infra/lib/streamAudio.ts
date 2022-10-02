@@ -2,10 +2,8 @@ const fs = require("fs");
 
 import * as ytdl from "ytdl-core";
 import * as ffmpeg from "fluent-ffmpeg";
-import { putObject } from "./putObject";
 import { Upload } from "@aws-sdk/lib-storage";
 import { S3Client } from "@aws-sdk/client-s3";
-const stream = require("stream");
 
 export const streamAudio = async (url: string, overrideTitle?: string) => {
   const videoInfo = await ytdl.getInfo(url);
@@ -60,5 +58,5 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
     });
 };
 
-const testUrl = "https://www.youtube.com/watch?v=98JGfgnXE1E";
-downloadAudio(testUrl);
+// const testUrl = "https://www.youtube.com/watch?v=98JGfgnXE1E";
+// streamAudio(testUrl);
