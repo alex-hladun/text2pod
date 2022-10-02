@@ -19,6 +19,7 @@ export function putObject(
       console.log("🚀 ~ file: putObject.ts ~ line 19 ~ response", response);
       resolve("ok");
     } catch (err) {
+      console.log("🚀 ~ file: putObject.ts ~ line 22 ~ err", err);
       // Handle the error or throw
       return reject(err);
     }

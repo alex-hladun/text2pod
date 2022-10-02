@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.181.0",
+    "@aws-sdk/lib-storage": "^3.182.0",
     "@types/fluent-ffmpeg": "^2.1.20",
     "aws-cdk-lib": "2.3.0",
     "constructs": "^10.0.0",
