@@ -1,8 +1,10 @@
 const fs = require("fs");
 
 import * as ytdl from "ytdl-core";
+import * as ffmpeg from "fluent-ffmpeg";
+const stream = require("stream");
 
-export const downloadAudio = async (url: string, title: string) => {
+export const downloadAudio = async (url: string, overrideTitle?: string) => {
   const videoInfo = await ytdl.getInfo(url);
 
   const relevantDetails = {
@@ -12,16 +14,36 @@ export const downloadAudio = async (url: string, title: string) => {
     lengthSeconds: videoInfo.videoDetails.lengthSeconds,
     ownerChannelName: videoInfo.videoDetails.ownerChannelName
   };
+
   console.log(
     "🚀 ~ file: downloadAudio.ts ~ line 15 ~ relevantDetails",
     relevantDetails
   );
 
-  ytdl(url, {
+  // const stream = ytdl(url, {
+  //   filter: "audioonly"
+  // }).pipe(fs.createWriteStream("test.mp3"));
+
+  const ytdlStream = ytdl(url, {
     filter: "audioonly",
     quality: "highestaudio"
-  }).pipe(fs.createWriteStream("test.mp3"));
+  });
+
+  console.log(`Downloading ${overrideTitle || relevantDetails.title}...`);
+
+  var bufferStream = new stream.PassThrough();
+
+  ffmpeg(ytdlStream)
+    .audioBitrate(320)
+    .save(`./${overrideTitle || relevantDetails.title}.mp3`)
+    .on("error", function (err) {
+      console.log("🚀 ~ file: downloadAudio.ts ~ line 38 ~ err", err);
+    })
+    .on("end", () => {
+      console.log(`Download complete ✅`);
+      console.log(`Upload to S3...`);
+    });
 };
 
-const testUrl = "https://www.youtube.com/watch?v=YnwfTHpnGLY";
-downloadAudio(testUrl, "test");
+const testUrl = "https://www.youtube.com/watch?v=98JGfgnXE1E";
+downloadAudio(testUrl);

@@ -22,10 +22,12 @@
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.181.0",
+    "@types/fluent-ffmpeg": "^2.1.20",
     "aws-cdk-lib": "2.3.0",
     "constructs": "^10.0.0",
     "dayjs": "^1.11.5",
     "fast-xml-parser": "^4.0.10",
+    "fluent-ffmpeg": "^2.1.2",
     "source-map-support": "^0.5.16",
     "ytdl-core": "^4.11.2"
   }
