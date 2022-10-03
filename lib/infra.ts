@@ -13,7 +13,7 @@ export class Infra extends Construct {
         FFMPEG_PATH: "/opt/bin/ffmpeg",
         FFPROBE_PATH: "/opt/bin/ffmpeg"
       },
-      timeout: Duration.seconds(300),
+      timeout: Duration.seconds(60 * 10),
       memorySize: 1024
     });
     new LambdaRestApi(this, "apigw", {

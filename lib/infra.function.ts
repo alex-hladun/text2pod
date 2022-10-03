@@ -1,5 +1,6 @@
-import { Context, APIGatewayProxyResult, APIGatewayEvent } from "aws-lambda";
+import { APIGatewayEvent, APIGatewayProxyResult, Context } from "aws-lambda";
 import { ytRegExp } from "./config";
+import { message } from "./messenger";
 import { parseAndAdd, PodEpisode } from "./parseAndAdd";
 import { streamAudio } from "./streamAudio";
 
@@ -50,6 +51,10 @@ export const handler = async (
 
     await parseAndAdd(newRecord);
 
+    await message(
+      originationNumber,
+      "Successfully downloaded. Will appear in the podcast feed shortly."
+    );
     return {
       statusCode: 200,
       body: JSON.stringify({
@@ -58,6 +63,7 @@ export const handler = async (
       })
     };
   } catch (error) {
+    await message(originationNumber, "There was a problem downloading :(");
     return {
       statusCode: 401,
       body: JSON.stringify({
