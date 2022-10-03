@@ -56,11 +56,14 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
 
         await parallelUploads3.done();
         console.log("Upload complete ✅");
-        resolve("Upload complete ✅");
+        resolve({
+          ...relevantDetails
+        });
       });
   });
 };
 
+// Local testing only
 const args = process.argv.slice(2);
 if (args[0] === "local") {
   console.log("🚀 ~ file: streamAudio.ts ~ line 9 ~ args", args);
