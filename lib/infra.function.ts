@@ -53,7 +53,7 @@ export const handler = async (
 
     await message(
       originationNumber,
-      "Successfully downloaded. Will appear in the podcast feed shortly."
+      `Successfully downloaded ${title}. Will appear in the podcast feed shortly.`
     );
     return {
       statusCode: 200,
@@ -63,7 +63,10 @@ export const handler = async (
       })
     };
   } catch (error) {
-    await message(originationNumber, "There was a problem downloading :(");
+    await message(
+      originationNumber,
+      "There was a problem downloading :( Ensure you're sending a valid YouTube URL."
+    );
     return {
       statusCode: 401,
       body: JSON.stringify({
