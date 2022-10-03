@@ -1,0 +1,152 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>DJ REXXCAST</title>
+    <description>Hottest in the game.</description>
+    <link>www.alexhladun.me</link>
+    <language>en</language>
+    <copyright>DJ Rexx 2020</copyright>
+    <itunes:subtitle>🔥 Fire Mixes 🔥 </itunes:subtitle>
+    <itunes:author>DJ Rexx</itunes:author>
+    <itunes:summary>🔥 Fire Mixes 🔥 </itunes:summary>
+    <itunes:owner>
+      <itunes:email>alexhladun@gmail.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://media.rss.com/rexxtape/20201215_193611_3f67141c0ea192820053473c13d80076.jpg" />
+    <itunes:category text="Music" />
+    <item>
+      <title>LANE8 | Winter 2020 (320kbps)</title>
+      <itunes:author>Lane8</itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Lane+8+Winter+2020+mixtape-320.mp3" length="352620669" type="audio/mpeg" />
+      <guid>rex001</guid>
+      <pubDate>Tue Dec 15 2020 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>2:26:55</itunes:duration>
+    </item>
+    <item>
+      <title>Tchami | Elevation Sunrise Liveset Miami (320kbps)</title>
+      <itunes:author>Tchami</itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Tchami+-+Elevation+Sunrise+Liveset+(Miami).mp3" length="140341440" type="audio/mpeg" />
+      <guid>rex002</guid>
+      <pubDate>Sat Dec 19 2020 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>58:29</itunes:duration>
+    </item>
+    <item>
+      <title>YOTTO | Tomorrowland Belgium 2019 (320kbps)</title>
+      <itunes:author>Yotto</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/yotto-tmrw-2019-320.mp3" length="114938733" type="audio/mpeg" />
+      <guid>rex003</guid>
+      <pubDate>Wed Feb 3 2021 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:59:43</itunes:duration>
+    </item>
+    <item>
+      <title>DJ REXX | Back in the Game 2021 (320kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Kinda fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/tesss2.m4a" length="91285959" type="audio/mpeg" />
+      <guid>rex004</guid>
+      <pubDate>Fri Jun 18 2021 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>38:28</itunes:duration>
+    </item>
+    <item>
+      <title>Defected Radio | Best of House Summer 2021 🌞 (320kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Dis a fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/defected-320.mp3" length="248041005" type="audio/mpeg" />
+      <guid>rex005</guid>
+      <pubDate>Fri Jun 18 2021 20:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:43:21</itunes:duration>
+    </item>
+    <item>
+      <title>Gorgon City | Chicago River Yacht Stream (320kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Supa Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/gorgon.mp3" length="275362605" type="audio/mpeg" />
+      <guid>rex006</guid>
+      <pubDate>Fri Jun 18 2021 21:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:54:44</itunes:duration>
+    </item>
+    <item>
+      <title>Lane 8 | Summer 2021 Mix (320kbps)</title>
+      <itunes:author>Lane 8</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Anothaaa Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/lane8summer2021.mp3" length="582430125" type="audio/mpeg" />
+      <guid>rex007</guid>
+      <pubDate>Sat Jun 19 2021 21:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>4:02:41</itunes:duration>
+    </item>
+    <item>
+      <title>DJ Rexx | Raft or Die 2021 Mix (320kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Anothaaa Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/test.m4a" length="226627024 " type="audio/mpeg" />
+      <guid>rex008</guid>
+      <pubDate>Wed Jun 24 2021 21:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:36:12</itunes:duration>
+    </item>
+    <item>
+      <title>DJ Lomac | Kelowna Essential Mix (320kbps)</title>
+      <itunes:author>DJ Lomac</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>Super exclusive mix guaranteed to burn down BC once and for all</itunes:summary>
+      <itunes:image href="https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/kelowna_320_2.mp3" length="60476089 " type="audio/mpeg" />
+      <guid>rex009</guid>
+      <pubDate>Wed Jul 21 2021 21:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:03:00</itunes:duration>
+    </item>
+    <item>
+      <title>DJ Rexx | Kelowna Non-Essential Travel Mix (98kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>BURN IT ALL DOWN!!!</itunes:summary>
+      <itunes:image href="https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/alex_kelowna_320.mp3" length="253674057 " type="audio/mpeg" />
+      <guid>rex010</guid>
+      <pubDate>Wed Jul 21 2021 22:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:45:42</itunes:duration>
+    </item>
+    <item>
+      <title>DJ Rexx | Bass at ur moms place (320kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>BURN IT ALL DOWN!!!</itunes:summary>
+      <itunes:image href="https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/basshouse2.m4a" length="82538355 " type="audio/mpeg" />
+      <guid>rex011</guid>
+      <pubDate>Wed Aug 11 2021 22:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>45:24</itunes:duration>
+    </item>
+    <item>
+      <title>Paradoks | Live at Mirador de la Figuerassa</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where'd ya find this?</itunes:subtitle>
+      <itunes:summary>This stream was recorded at the beautiful Mirador de la Figuerassa in Spain. 
+  It was a special moment for me to play melodic tracks in such a scenery. 
+  I hope you enjoy!</itunes:summary>
+      <itunes:image href="https://upload.wikimedia.org/wikipedia/commons/3/36/Large_bonfire.jpg" />
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/paradoksmirador.mp3" length="133346925 " type="audio/mpeg" />
+      <guid>rex012</guid>
+      <pubDate>Mon Oct 11 2021 22:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>55:33</itunes:duration>
+    </item>
+
+  </channel>
+</rss>
