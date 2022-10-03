@@ -9,9 +9,12 @@ export class Infra extends Construct {
     super(scope, id);
     const infraFunction = new NodejsFunction(this, "function", {
       environment: {
-        FLUENTFFMPEG_COV: ""
+        FLUENTFFMPEG_COV: "",
+        FFMPEG_PATH: "/opt/bin/ffmpeg",
+        FFPROBE_PATH: "/opt/bin/ffmpeg"
       },
-      timeout: Duration.seconds(300)
+      timeout: Duration.seconds(300),
+      memorySize: 1024
     });
     new LambdaRestApi(this, "apigw", {
       handler: infraFunction

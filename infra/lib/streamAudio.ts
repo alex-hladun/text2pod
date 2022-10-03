@@ -2,17 +2,10 @@ const fs = require("fs");
 
 const ytdl = require("ytdl-core");
 const ffmpeg = require("fluent-ffmpeg");
-const ffmpegStatic = require("ffmpeg-static");
-const ffprobeStatic = require("ffprobe-static");
+const path = require("path");
 
-import { Upload } from "@aws-sdk/lib-storage";
 import { S3Client } from "@aws-sdk/client-s3";
-
-console.log("🚀 ~ file: streamAudio.ts ~ line 37 ~ ffmpegStatic", ffmpegStatic);
-console.log(
-  "🚀 ~ file: streamAudio.ts ~ line 39 ~ ffprobeStatic.path",
-  ffprobeStatic.path
-);
+import { Upload } from "@aws-sdk/lib-storage";
 
 export const streamAudio = async (url: string, overrideTitle?: string) => {
   const videoInfo = await ytdl.getInfo(url);
@@ -37,21 +30,19 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
 
   console.log(`Downloading ${overrideTitle || relevantDetails.title}...`);
 
+  const saveDirectory = `/tmp/${relevantDetails.videoId}.mp3`;
+
   return new Promise((resolve, reject) => {
     ffmpeg(ytdlStream)
-      .setFfmpegPath(ffmpegStatic)
-      .setFfprobePath(ffprobeStatic.path)
       .audioBitrate(320)
       .on("error", function (err) {
         console.log("🚀 ~ file: downloadAudio.ts ~ line 38 ~ err", err);
         reject(err);
       })
-      .save(`./${relevantDetails.videoId}.mp3`)
+      .save(saveDirectory)
       .on("end", async () => {
         console.log(`Download complete ✅. Uploading...`);
-        const readStream = fs.createReadStream(
-          `./${relevantDetails.videoId}.mp3`
-        );
+        const readStream = fs.createReadStream(saveDirectory);
 
         const parallelUploads3 = new Upload({
           client: new S3Client({}),
@@ -63,9 +54,6 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
           leavePartsOnError: false // optional manually handle dropped parts
         });
 
-        parallelUploads3.on("httpUploadProgress", (progress) => {
-          console.log(progress);
-        });
         await parallelUploads3.done();
         console.log("Upload complete ✅");
         resolve("Upload complete ✅");

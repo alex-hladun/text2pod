@@ -39,7 +39,7 @@ interface PodEpisode {
   "itunes:duration": string;
 }
 const parseAndAdd = async (videoUrl?: string) => {
-  const podFile = await getObject("hladun-site", "pod.xml");
+  const podFile = await getObject("hladun-site", "pod2.xml");
   // Local podFile
   // const podFile = await fsPromises.readFile("test.xml", "utf8");
 
