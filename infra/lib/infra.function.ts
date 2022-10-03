@@ -1,6 +1,6 @@
 import { Context, APIGatewayProxyResult, APIGatewayEvent } from "aws-lambda";
 import { ytRegExp } from "./config";
-import { parseAndAdd, PodEpisode } from "./parser";
+import { parseAndAdd, PodEpisode } from "./parseAndAdd";
 import { streamAudio } from "./streamAudio";
 
 export const handler = async (
@@ -9,31 +9,24 @@ export const handler = async (
 ): Promise<APIGatewayProxyResult> => {
   console.log(`Event: ${JSON.stringify(event, null, 2)}`);
   console.log(`Context: ${JSON.stringify(context, null, 2)}`);
-  console.log(`ProcessENV: ${JSON.stringify(process.env)}`);
 
   let url = event?.url;
   const record = event.Records[0];
-  console.log("🚀 ~ file: infra.function.ts ~ line 15 ~ record", record);
+
   let originationNumber = "";
   if (record?.Sns.Message && typeof record.Sns.Message === "string") {
     const parsedMessage = JSON.parse(record.Sns.Message);
     const messageBody = parsedMessage.messageBody;
-    console.log(
-      "🚀 ~ file: infra.function.ts ~ line 20 ~ messageBody",
-      messageBody
-    );
     originationNumber = parsedMessage.originationNumber;
     if (messageBody && ytRegExp.test(messageBody)) {
       url = messageBody;
     }
   }
 
-  console.log("🚀 ~ file: infra.function.ts ~ line 27 ~ url", url);
-
   try {
     if (!url) throw new Error("Invalid Url");
     const details = await streamAudio(url);
-    console.log("🚀 ~ file: infra.function.ts ~ line 36 ~ details", details);
+
     const { title, description, videoId, lengthSeconds, ownerChannelName } =
       details;
 

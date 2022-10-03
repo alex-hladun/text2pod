@@ -41,10 +41,10 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
       })
       .save(saveDirectory)
       .on("end", async () => {
-        console.log(`Download complete ✅. Uploading...`);
+        console.log(`Download complete ✅. Uploading to s3...`);
         const readStream = fs.createReadStream(saveDirectory);
 
-        const parallelUploads3 = new Upload({
+        const multiPartUpload = new Upload({
           client: new S3Client({}),
           params: {
             Bucket: "hladun-site",
@@ -54,7 +54,7 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
           leavePartsOnError: false // optional manually handle dropped parts
         });
 
-        await parallelUploads3.done();
+        await multiPartUpload.done();
         console.log("Upload complete ✅");
         resolve({
           ...relevantDetails

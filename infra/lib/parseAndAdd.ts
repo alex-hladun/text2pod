@@ -37,21 +37,17 @@ export interface PodEpisode {
   };
   guid: string;
   pubDate: string;
-  // pubDate: 'Wed Aug 11 2021 22:36:13 GMT-0700 (Mountain Standard Time)',
   "itunes:duration": string;
 }
 export const parseAndAdd = async (episode: PodEpisode) => {
-  const podFile = await getObject(config.bucketName, config.podcastFile);
-  console.log("🚀 ~ file: parser.ts ~ line 39 ~ podFile", podFile);
+  const podFile = await getObject(config.bucketName, config.podcastFile); // Get existing podcast feed
 
-  // Local podFile
-  // const podFile = await fsPromises.readFile("test.xml", "utf8");
+  // const podFile = await fsPromises.readFile("test.xml", "utf8"); //Load local file
 
   const parser = new XMLParser({ ignoreAttributes: false });
   let parseJob: Podcast = parser.parse(podFile);
 
   const itemList = parseJob.rss.channel.item;
-  console.log("🚀 ~ file: parser.ts ~ line 48 ~ itemList", itemList);
 
   // Write to S3
   const newItemList = [...itemList, episode];
@@ -62,12 +58,11 @@ export const parseAndAdd = async (episode: PodEpisode) => {
       channel: { ...parseJob.rss.channel, item: newItemList }
     }
   };
-  console.log("🚀 ~ file: parser.ts ~ line 62 ~ newPodFile", newPodFile);
+
   const builder = new XMLBuilder({ ignoreAttributes: false });
   const xmlOutput = builder.build(newPodFile);
+
+  await putObject(config.bucketName, config.podcastFile, xmlOutput); // Write file to S3
   // Write file locally
   // fsPromises.writeFile("pod2.rss", xmlOutput);
-
-  // write to S3
-  await putObject(config.bucketName, config.podcastFile, xmlOutput);
 };
