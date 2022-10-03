@@ -1,14 +1,10 @@
 import { XMLBuilder, XMLParser } from "fast-xml-parser";
-import { promises as fsPromises } from "fs";
-import {
-  S3Client,
-  AbortMultipartUploadCommand,
-  GetObjectCommand
-} from "@aws-sdk/client-s3";
+import { config } from "./config";
 import { getObject } from "./getObject";
+import { promises as fsPromises } from "fs";
 import { putObject } from "./putObject";
 
-interface Podcast {
+export interface Podcast {
   rss: {
     channel: {
       title: string;
@@ -26,38 +22,52 @@ interface Podcast {
   };
 }
 
-interface PodEpisode {
+export interface PodEpisode {
   title: string;
   "itunes:author": string;
   "itunes:subtitle": string;
   "itunes:summary": string;
-  "itunes:image": string;
-  enclosure: string;
+  "itunes:image": {
+    "@_href": string;
+  };
+  enclosure: {
+    "@_url": string;
+    "@_length": string;
+    "@_type": string;
+  };
   guid: string;
   pubDate: string;
   // pubDate: 'Wed Aug 11 2021 22:36:13 GMT-0700 (Mountain Standard Time)',
   "itunes:duration": string;
 }
-const parseAndAdd = async (videoUrl?: string) => {
-  const podFile = await getObject("hladun-site", "pod2.xml");
+export const parseAndAdd = async (episode: PodEpisode) => {
+  const podFile = await getObject(config.bucketName, config.podcastFile);
+  console.log("🚀 ~ file: parser.ts ~ line 39 ~ podFile", podFile);
+
   // Local podFile
   // const podFile = await fsPromises.readFile("test.xml", "utf8");
 
-  const parser = new XMLParser();
+  const parser = new XMLParser({ ignoreAttributes: false });
   let parseJob: Podcast = parser.parse(podFile);
 
   const itemList = parseJob.rss.channel.item;
-  itemList.forEach((item) => console.log(item));
+  console.log("🚀 ~ file: parser.ts ~ line 48 ~ itemList", itemList);
 
-  const newPodFile = parseJob;
-
-  const builder = new XMLBuilder({});
+  // Write to S3
+  const newItemList = [...itemList, episode];
+  const newPodFile = {
+    ...parseJob,
+    rss: {
+      ...parseJob.rss,
+      channel: { ...parseJob.rss.channel, item: newItemList }
+    }
+  };
+  console.log("🚀 ~ file: parser.ts ~ line 62 ~ newPodFile", newPodFile);
+  const builder = new XMLBuilder({ ignoreAttributes: false });
   const xmlOutput = builder.build(newPodFile);
-
   // Write file locally
-  // fsPromises.writeFile("newOutput.xml", xmlOutput);
+  // fsPromises.writeFile("pod2.rss", xmlOutput);
 
-  await putObject("hladun-site", "pod2.xml", xmlOutput);
+  // write to S3
+  await putObject(config.bucketName, config.podcastFile, xmlOutput);
 };
-
-parseAndAdd();
