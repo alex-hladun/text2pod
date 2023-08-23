@@ -15,7 +15,7 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
     description: videoInfo.videoDetails.description,
     videoId: videoInfo.videoDetails.videoId,
     lengthSeconds: videoInfo.videoDetails.lengthSeconds,
-    ownerChannelName: videoInfo.videoDetails.ownerChannelName
+    ownerChannelName: videoInfo.videoDetails.ownerChannelName,
   };
 
   console.log(
@@ -25,7 +25,7 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
 
   const ytdlStream = ytdl(url, {
     filter: "audioonly",
-    quality: "highestaudio"
+    quality: "highestaudio",
   });
 
   console.log(`Downloading ${overrideTitle || relevantDetails.title}...`);
@@ -49,25 +49,16 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
           params: {
             Bucket: "hladun-site",
             Key: `pod/${relevantDetails.videoId}.mp3`,
-            Body: readStream
+            Body: readStream,
           },
-          leavePartsOnError: false // optional manually handle dropped parts
+          leavePartsOnError: false, // optional manually handle dropped parts
         });
 
         await multiPartUpload.done();
         console.log("Upload complete ✅");
         resolve({
-          ...relevantDetails
+          ...relevantDetails,
         });
       });
   });
 };
-
-// Local testing only
-const args = process.argv.slice(2);
-if (args[0] === "local") {
-  console.log("🚀 ~ file: streamAudio.ts ~ line 9 ~ args", args);
-  streamAudio(
-    "https://www.youtube.com/watch?v=Uq9gPaIzbe8&ab_channel=SamSmithVEVO"
-  );
-}
