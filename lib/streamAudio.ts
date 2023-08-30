@@ -18,11 +18,6 @@ export const streamAudio = async (url: string, overrideTitle?: string) => {
     ownerChannelName: videoInfo.videoDetails.ownerChannelName,
   };
 
-  console.log(
-    "🚀 ~ file: downloadAudio.ts ~ line 15 ~ relevantDetails",
-    relevantDetails
-  );
-
   const ytdlStream = ytdl(url, {
     filter: "audioonly",
     quality: "highestaudio",

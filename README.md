@@ -3,7 +3,7 @@
 This is a project to upload and append audio files from YouTube to a podcast stored in AWS S3. To set up:
 
 1. Set up aws-cli and install dependencies.
-2. Create an S3 bucket, copy pod.rss into bucket, and add details to `/lib/config.ts`
+2. Create an S3 bucket, copy pod.rss into bucket (/lib/pod), and add details to `/lib/config.ts`
 3. Set up AWS pinpoint application, and add applicationId and originationNumber to config.ts
 
 - To test, run `npx ts-node streamAudio.ts`

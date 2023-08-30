@@ -11,12 +11,11 @@ export function putObject(
     const putObjectCommand = new PutObjectCommand({
       Bucket,
       Key,
-      Body
+      Body,
     });
 
     try {
-      const response = await client.send(putObjectCommand);
-      console.log("🚀 ~ file: putObject.ts ~ line 19 ~ response", response);
+      await client.send(putObjectCommand);
       resolve("ok");
     } catch (err) {
       console.log("🚀 ~ file: putObject.ts ~ line 22 ~ err", err);

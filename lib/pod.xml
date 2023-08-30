@@ -1,0 +1,28 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Podcast name</title>
+    <description>Your favorite podcase.</description>
+    <link>www.yourwebsite.com</link>
+    <language>en</language>
+    <copyright>No copywrite</copyright>
+    <itunes:subtitle>🔥 Itunes Description 🔥 </itunes:subtitle>
+    <itunes:author>DJ You</itunes:author>
+    <itunes:summary>🔥 Itunes Description 🔥 </itunes:summary>
+    <itunes:owner>
+      <itunes:email>your@email.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="test.jpg" />
+    <itunes:category text="Music" />
+    <item>
+      <title>Example item - LANE8 | Winter 2020 (320kbps)</title>
+      <itunes:author>Lane8</itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Fire mix</itunes:summary>
+      <itunes:image href="" />
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Lane+8+Winter+2020+mixtape-320.mp3" length="352620669" type="audio/mpeg" />
+      <guid>rex001</guid>
+      <pubDate>Tue Dec 15 2020 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>2:26:55</itunes:duration>
+    </item>
+  </channel>
+</rss>
