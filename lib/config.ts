@@ -1,9 +1,12 @@
+import * as dotenv from "dotenv";
+dotenv.config();
+
 export const config = {
-  bucketName: "bucket-name",
+  bucketName: process.env.bucketName,
   bucketRegion: "us-west-2",
-  podcastFile: "pod.rss",
-  originationNumber: "+55555555555",
-  pinpointApplicationId: "XYXYXYXYXYYXYXYX",
+  podcastFile: "pod2.rss",
+  originationNumber: process.env.originationNumber,
+  pinpointApplicationId: process.env.pinpointApplicationId,
   messageType: "TRANSACTIONAL",
 };
 

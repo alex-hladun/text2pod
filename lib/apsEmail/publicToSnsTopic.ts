@@ -1,31 +1,18 @@
 import { PublishCommand, PublishInput, SNSClient } from "@aws-sdk/client-sns";
+import * as dotenv from "dotenv";
 
-const TopicArn = "arn:aws:sns:us-east-1:253896803446:APSEmailForm";
+dotenv.config();
+const TopicArn = process.env.TopicArn;
 
 export const publishToSnsTopic = async (body: string) => {
   try {
     // new SNS client
-    const snsClient = new SNSClient({});
+    const snsClient = new SNSClient({ region: "us-west-2" });
 
     const input: PublishInput = {
-      // PublishInput
       TopicArn: TopicArn,
-      //   TargetArn: "STRING_VALUE",
-      //   PhoneNumber: "STRING_VALUE",
       Message: JSON.stringify(body), // required
       Subject: "APS_EMAIL",
-      //   MessageStructure: "STRING_VALUE",
-      //   MessageAttributes: {
-      //     // MessageAttributeMap
-      //     "<keys>": {
-      //       // MessageAttributeValue
-      //       DataType: , // required
-      //       StringValue: "STRING_VALUE",
-      //       BinaryValue: "BLOB_VALUE",
-      //     },
-      //   },
-      MessageDeduplicationId: "STRING_VALUE",
-      MessageGroupId: "STRING_VALUE",
     };
     const command = new PublishCommand(input);
     const response = await snsClient.send(command);
@@ -47,5 +34,4 @@ export const publishToSnsTopic = async (body: string) => {
   }
 };
 
-console.log("before");
-publishToSnsTopic("this is a full test {this: test}");
+// publishToSnsTopic("this is a full test {this: test}");

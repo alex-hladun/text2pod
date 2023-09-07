@@ -1,7 +1,7 @@
-import { APIGatewayEvent, APIGatewayProxyResult, Context } from "aws-lambda";
+import { APIGatewayProxyResult, Context } from "aws-lambda";
 import { ytRegExp } from "./config";
 import { message } from "./messenger";
-import { parseAndAdd, PodEpisode } from "./parseAndAdd";
+import { PodEpisode, parseAndAdd } from "./parseAndAdd";
 import { streamAudio } from "./streamAudio";
 
 export const handler = async (

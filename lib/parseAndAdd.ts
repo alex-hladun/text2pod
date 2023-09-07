@@ -39,6 +39,7 @@ export interface PodEpisode {
   "itunes:duration": string;
 }
 export const parseAndAdd = async (episode: PodEpisode) => {
+  if (!config.bucketName) throw new Error("No bucket name");
   const podFile = await getObject(config.bucketName, config.podcastFile); // Get existing podcast feed
 
   const parser = new XMLParser({ ignoreAttributes: false });
