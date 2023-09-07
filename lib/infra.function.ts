@@ -5,7 +5,7 @@ import { parseAndAdd, PodEpisode } from "./parseAndAdd";
 import { streamAudio } from "./streamAudio";
 
 export const handler = async (
-  event: APIGatewayEvent,
+  event: any,
   context: Context
 ): Promise<APIGatewayProxyResult> => {
   console.log(`Event: ${JSON.stringify(event, null, 2)}`);
@@ -26,7 +26,7 @@ export const handler = async (
 
   try {
     if (!url) throw new Error("Invalid Url");
-    const details = await streamAudio(url);
+    const details: any = await streamAudio(url);
 
     const { title, description, videoId, lengthSeconds, ownerChannelName } =
       details;
@@ -39,14 +39,14 @@ export const handler = async (
       guid: videoId,
       "itunes:subtitle": "",
       "itunes:image": {
-        "@_href": ``
+        "@_href": ``,
       },
       pubDate: new Date().toUTCString(),
       enclosure: {
         "@_url": `https://hladun-site.s3-us-west-2.amazonaws.com/pod/${videoId}.mp3`,
         "@_length": `${lengthSeconds}`,
-        "@_type": "audio/mpeg"
-      }
+        "@_type": "audio/mpeg",
+      },
     };
 
     await parseAndAdd(newRecord);
@@ -59,8 +59,8 @@ export const handler = async (
       statusCode: 200,
       body: JSON.stringify({
         message: "SUCCESS",
-        videoId
-      })
+        videoId,
+      }),
     };
   } catch (error) {
     await message(
@@ -70,8 +70,8 @@ export const handler = async (
     return {
       statusCode: 401,
       body: JSON.stringify({
-        message: error
-      })
+        message: error,
+      }),
     };
   }
 };

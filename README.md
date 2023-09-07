@@ -9,6 +9,8 @@ This is a project to upload and append audio files from YouTube to a podcast sto
 - To test, run `npx ts-node streamAudio.ts`
 
 5. If deploying to AWS, add FFMPEG binary layer from [here](https://github.com/serverlesspub/ffmpeg-aws-lambda-layer).
+   5b. inside `node_modules/fluent-ffmpeg/index.js` , change top line to `module.exports = require('./lib/fluent-ffmpeg');`
+
 6. To deploy, run `cdk deploy`
 
 ## CDK commands
@@ -16,7 +18,7 @@ This is a project to upload and append audio files from YouTube to a podcast sto
 - `npm run build` compile typescript to js
 - `npm run watch` watch for changes and compile
 - `npm run test` perform the jest unit tests
-- `cdk deploy` deploy this stack to your default AWS account/region
+- `cdk deploy` (DOCKER must be running for all CDK commands) deploy this stack to your default AWS account/region
 - `cdk diff` compare deployed stack with current state
 - `cdk synth` emits the synthesized CloudFormation template
 

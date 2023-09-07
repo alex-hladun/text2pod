@@ -1,26 +1,23 @@
 {
-  "app": "npx ts-node --prefer-ts-exts bin/infra.ts",
-  "watch": {
-    "include": [
-      "**"
-    ],
-    "exclude": [
-      "README.md",
-      "cdk*.json",
-      "**/*.d.ts",
-      "**/*.js",
-      "tsconfig.json",
-      "package*.json",
-      "yarn.lock",
-      "node_modules",
-      "test"
-    ]
-  },
-  "context": {
-    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
-    "@aws-cdk/core:stackRelativeExports": true,
-    "@aws-cdk/aws-rds:lowercaseDbIdentifier": true,
-    "@aws-cdk/aws-lambda:recognizeVersionProps": true,
-    "@aws-cdk/aws-cloudfront:defaultSecurityPolicyTLSv1.2_2021": true
+  "statusCode": 401,
+  "body": {
+    "message": {
+      "name": "InvalidParameterException",
+      "$fault": "client",
+      "$metadata": {
+        "httpStatusCode": 400,
+        "requestId": "cd3096de-ae1a-596b-8ae3-cbaa8d6461d9",
+        "attempts": 1,
+        "totalRetryDelay": 0
+      },
+      "Error": {
+        "Type": "Sender",
+        "Code": "InvalidParameter",
+        "Message": "Invalid parameter: TopicArn",
+        "message": "Invalid parameter: TopicArn"
+      },
+      "RequestId": "cd3096de-ae1a-596b-8ae3-cbaa8d6461d9",
+      "xmlns": "http://sns.amazonaws.com/doc/2010-03-31/"
+    }
   }
 }
