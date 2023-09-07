@@ -2,10 +2,11 @@ import { PublishCommand, PublishInput, SNSClient } from "@aws-sdk/client-sns";
 import * as dotenv from "dotenv";
 
 dotenv.config();
-const TopicArn = process.env.TopicArn;
+const TopicArn = process.env.SNS_ARN || process.env.TopicArn;
 
 export const publishToSnsTopic = async (body: string) => {
   try {
+    console.log("🚀 ~ file: publicToSnsTopic.ts:6 ~ process.env:", process.env);
     // new SNS client
     const snsClient = new SNSClient({ region: "us-west-2" });
 
