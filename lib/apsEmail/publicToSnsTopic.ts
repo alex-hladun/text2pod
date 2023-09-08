@@ -23,6 +23,11 @@ export const publishToSnsTopic = async (body: string) => {
       body: JSON.stringify({
         message: "SUCCESS",
       }),
+      headers: {
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST",
+      },
     };
   } catch (error) {
     console.log("🚀 ~ file: Aps.email.ts:47 ~ error:", error);
@@ -31,6 +36,11 @@ export const publishToSnsTopic = async (body: string) => {
       body: JSON.stringify({
         message: error,
       }),
+      headers: {
+        "Access-Control-Allow-Headers": "Content-Type",
+        "Access-Control-Allow-Origin": "*",
+        "Access-Control-Allow-Methods": "POST",
+      },
     };
   }
 };
