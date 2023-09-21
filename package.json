@@ -9,7 +9,7 @@
     "watch": "tsc -w",
     "test": "jest",
     "cdk": "cdk",
-    "deploy": "cdk deploy --platform linux/amd64"
+    "deploy": "cdk deploy --platform linux/amd64/v8"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.106",
