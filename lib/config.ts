@@ -7,7 +7,7 @@ export const config = {
   podcastFile: process.env.podcastFileName || "pod2.rss",
   originationNumber: process.env.originationNumber || "+19029036694",
   pinpointApplicationId:
-    process.env.pinpointApplicationId || "6a22db7c3faa4asdkjlasdkasjdlkajsd",
+    process.env.pinpointApplicationId || "6a22db7c3faa437099752474cbf54170",
 };
 
 export const ytRegExp = new RegExp(
