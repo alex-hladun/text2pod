@@ -1,28 +1,1602 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>Podcast name</title>
-    <description>Your favorite podcase.</description>
-    <link>www.yourwebsite.com</link>
+    <title>DJ REXXCAST</title>
+    <description>Hottest in the game.</description>
+    <link>www.alexhladun.me</link>
     <language>en</language>
-    <copyright>No copywrite</copyright>
-    <itunes:subtitle>🔥 Itunes Description 🔥 </itunes:subtitle>
-    <itunes:author>DJ You</itunes:author>
-    <itunes:summary>🔥 Itunes Description 🔥 </itunes:summary>
+    <copyright>DJ Rexx 2020</copyright>
+    <itunes:subtitle>🔥 Fire Mixes 🔥</itunes:subtitle>
+    <itunes:author>DJ Rexx</itunes:author>
+    <itunes:summary>🔥 Fire Mixes 🔥</itunes:summary>
     <itunes:owner>
-      <itunes:email>your@email.com</itunes:email>
+      <itunes:email>alexhladun@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="test.jpg" />
-    <itunes:category text="Music" />
+    <itunes:image href="https://media.rss.com/rexxtape/20201215_193611_3f67141c0ea192820053473c13d80076.jpg"></itunes:image>
+    <itunes:category text="Music"></itunes:category>
     <item>
-      <title>Example item - LANE8 | Winter 2020 (320kbps)</title>
+      <title>LANE8 | Winter 2020 (320kbps)</title>
       <itunes:author>Lane8</itunes:author>
       <itunes:subtitle></itunes:subtitle>
       <itunes:summary>Fire mix</itunes:summary>
-      <itunes:image href="" />
-      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Lane+8+Winter+2020+mixtape-320.mp3" length="352620669" type="audio/mpeg" />
-      <guid>rex001</guid>
+      <itunes:image href=""></itunes:image>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Lane+8+Winter+2020+mixtape-320.mp3" length="352620669" type="audio/mpeg"></enclosure>
+      <guid>rex001hladun</guid>
       <pubDate>Tue Dec 15 2020 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
       <itunes:duration>2:26:55</itunes:duration>
+    </item>
+    <item>
+      <title>Tchami | Elevation Sunrise Liveset Miami (320kbps)</title>
+      <itunes:author>Tchami</itunes:author>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:summary>Fire mix</itunes:summary>
+      <itunes:image href=""></itunes:image>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Tchami+-+Elevation+Sunrise+Liveset+(Miami).mp3" length="140341440" type="audio/mpeg"></enclosure>
+      <guid>rex002hladun</guid>
+      <pubDate>Sat Dec 19 2020 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>58:29</itunes:duration>
+    </item>
+    <item>
+      <title>YOTTO | Tomorrowland Belgium 2019 (320kbps)</title>
+      <itunes:author>Yotto</itunes:author>
+      <itunes:subtitle>damn son where&apos;d ya find this?</itunes:subtitle>
+      <itunes:summary>Fire mix</itunes:summary>
+      <itunes:image href=""></itunes:image>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/yotto-tmrw-2019-320.mp3" length="114938733" type="audio/mpeg"></enclosure>
+      <guid>rex003hladun</guid>
+      <pubDate>Wed Feb 3 2021 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>1:59:43</itunes:duration>
+    </item>
+    <item>
+      <title>DJ REXX | Back in the Game 2021 (320kbps)</title>
+      <itunes:author>DJ Rexx</itunes:author>
+      <itunes:subtitle>damn son where&apos;d ya find this?</itunes:subtitle>
+      <itunes:summary>Kinda Kire mix</itunes:summary>
+      <itunes:image href=""></itunes:image>
+      <enclosure url="https://hladun-site.s3.us-west-2.amazonaws.com/pod/tesss2.m4a" length="91285959" type="audio/mpeg"></enclosure>
+      <guid>rex004hladun</guid>
+      <pubDate>Fri Jun 18 2021 19:36:13 GMT-0700 (Mountain Standard Time)</pubDate>
+      <itunes:duration>38:28</itunes:duration>
+    </item>
+    <item>
+      <title>acdcVEVO | AC/DC - Back In Black (Official Video)</title>
+      <itunes:summary>Official 4K Video for &quot;Back In Black&quot; by AC/DC
+Listen to AC/DC: https://ACDC.lnk.to/listen_YD
+
+Subscribe to the official AC/DC YouTube channel: https://ACDC.lnk.to/subscribeYD
+
+Watch more AC/DC videos: https://ACDC.lnk.to/listen_YC/youtube
+
+Follow AC/DC:
+Facebook: https://ACDC.lnk.to/followFI
+Instagram: https://ACDC.lnk.to/followII
+Twitter: https://ACDC.lnk.to/followTI
+Website: https://ACDC.lnk.to/followWI
+Spotify: https://ACDC.lnk.to/followSI
+YouTube: https://ACDC.lnk.to/subscribeYD
+
+Chorus:
+&apos;Cause I&apos;m back, yes I&apos;m back
+Well, I&apos;m back, yes I&apos;m back
+Well, I&apos;m back, back
+Well, I&apos;m back in black
+Yes, I&apos;m back in black
+
+#ACDC #BackInBlack #Rock #HD #Remastered</itunes:summary>
+      <itunes:duration>254</itunes:duration>
+      <itunes:author>acdcVEVO</itunes:author>
+      <guid>pAgnJDJN4VA</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 03 Oct 2022 02:27:05 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/pAgnJDJN4VA.mp3" length="254" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Spirit Of The West | Spirit Of The West &quot;Home For A Rest&quot; - Official Music Video</title>
+      <itunes:summary>Official music video for &quot;Home For A Rest&quot; by Spirit Of The West.
+Available on the album &quot;Spirituality 1983-2008: The Consummate Compendium&quot;: http://smarturl.it/SOTW-Spirituality
+Official website: http://www.sotw.ca</itunes:summary>
+      <itunes:duration>276</itunes:duration>
+      <itunes:author>Spirit Of The West</itunes:author>
+      <guid>crIk87-mPzY</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 03 Oct 2022 03:19:16 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/crIk87-mPzY.mp3" length="276" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>VideoPhixa | Hans Zimmer - Time (Pen Perry Remix)</title>
+      <itunes:summary>●Pen Perry
+Official V: https://goo.gl/bNFO3h
+YouTube: https://goo.gl/d8rdLM
+facebook: https://goo.gl/gh1Knn
+soundcloud: https://goo.gl/aYpwc0
++++++
+●Follow VideoPhixa https://www.facebook.com/pg/videophixa/about/?tab=page_info
+http://www.youtube.com/user/VideoPhixa
+https://twitter.com/VideoPhixa
+
+All the tracks and image art used in our video are the property of their respective owners. No copyright infringement intended strictly for promotional use. Will remove if requested by record labels.</itunes:summary>
+      <itunes:duration>453</itunes:duration>
+      <itunes:author>VideoPhixa</itunes:author>
+      <guid>Gdg5HqX_vZE</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 03 Oct 2022 03:49:15 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Gdg5HqX_vZE.mp3" length="453" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Jack Harlow | Jack Harlow &amp; Pooh Shiesty - SUVs (Black on Black) [Official Audio]</title>
+      <itunes:summary>Jack Harlow &amp; Pooh Shiesty - SUVs (Black on Black)
+Stream/Download: https://jackharlow.lnk.to/SUVs
+
+Stream/Download &apos;Come Home The Kids Miss You&apos; OUT NOW!:
+https://jackharlow.lnk.to/CHTKMY
+
+SHOP OFFICIAL MERCH https://shop.jackharlow.us/?ref=https%3A%2F%2Fwww.jackharlow.us%2F
+
+FOLLOW JACK HARLOW
+Website: https://www.jackharlow.us/
+Instagram: https://JackHarlow.lnk.to/Instagram
+Twitter: https://JackHarlow.lnk.to/Twitter
+Facebook: https://JackHarlow.lnk.to/Facebook
+
+LISTEN TO JACK HARLOW
+Youtube: https://JackHarlow.lnk.to/YouTube
+SoundCloud: https://JackHarlow.lnk.to/SoundCloud
+Spotify: https://JackHarlow.lnk.to/Spotify
+Apple: https://JackHarlow.lnk.to/Apple
+
+The official YouTube channel of Generation Now and Atlantic Records artist Jack Harlow. Subscribe for the latest music videos, performances, and more.
+
+SUBSCRIBE TO JACK’S YOUTUBE: 
+https://JackHarlow.lnk.to/YouTube
+
+#JackHarlow #PoohShiesty #SUVs</itunes:summary>
+      <itunes:duration>158</itunes:duration>
+      <itunes:author>Jack Harlow</itunes:author>
+      <guid>98JGfgnXE1E</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 03 Oct 2022 04:13:11 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/98JGfgnXE1E.mp3" length="158" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>This Never Happened | Lane 8 Fall 2022 Mixtape</title>
+      <itunes:summary>Tracklist 
+
+0:00 ID - ID
+5:58 ID - ID
+10:01 ID - ID
+12:17 ID - ID
+16:55 Hunter/Game - Beyond a Dream
+20:16 ID - ID
+24:59 Rinzen - A World Too Late
+28:22 Diplo &amp; Joeski ft. Rhye - Fortress
+32:32 Tommy Baynen - A View From Afar
+36:11 Zola Blood - For The Birds (ID Remix)
+39:27 Jon Gurd - Let Go (Tagavaka Remix)
+45:44 Naeiiv - Nothing Means Everything
+48:56 RONA. - Feel It Too
+52:12 Lane 8 - Closer (ID Remix)
+55:05 BLR - Sinner
+59:46 Jerro - Linger
+1:01:19 Sebjak &amp; Fahlberg - Somebody
+1:05:14 ID - ID
+1:10:08 José González - Swing (Solomun Remix)
+1:13:16 Four Tet - Scythe Master (ID Remix)
+1:18:11 ID - ID
+1:22:06 Dahu - The Birds Sang At Midnight
+1:25:38 Fluida - Phoenix 
+1:26:41 Nors Kode - I&apos;m On Fire
+1:31:53 DJ Koze ft. Róisín Murphy - Illumination (Dave DK Remix)
+1:34:05 Matter &amp; Dowden - York
+1:37:12 Armitage - Cloudbusting (Dub Mix) vs. The Pump Panell - &quot;Blade&quot; (2016 Remaster) 
+1:40:38 Innellea - Transhumanism Project (3/3)
+1:42:58 Victor Ruiz - Beirut
+1:47:23 Nors Kode - Melon Juice
+1:52:50 Einmusik - Caramel
+1:57:00 Tinlicker - Just To Hear You Say (Joseph Ray Remix)
+2:00:05 ID - ID
+2:04:32 Nourey - For Ellie
+2:08:20 ID - ID
+2:11:23 Le Youth &amp; OCULA ft. Nathan Nicholson - If Only (You Could Be Here) (Grigoré Remix)
+2:17:06 RÜFÜS DU SOL - Always (Monkey Safari Remix)
+2:19:32 ID - ID
+2:24:07 Coloray - Blinded (Colyn Remix)
+2:27:59 Cassian - Landa
+2:31:55 Will Atkinson - Pipe Dreams (Jerome Isma-Ae Remix)
+2:35:33 Kasablanca - Transitory
+2:38:23 Tommy Farrow - Maybe, It&apos;s Possible
+2:42:29 Jeremy Olander - Murphy
+2:47:02 Kx5 ft. Hayla - Escape (Spencer Brown Remix)
+2:51:32 Solomun - Home (Boys Noize Remix)
+2:54:04 Yotto - Lone Machine
+2:56:23 Lane 8 ft. Solomon Grey - Automatic (ID Remix)
+
+Follow Lane 8
+Website: http://www.lane8music.com
+Facebook: https://facebook.com/lane8music
+Twitter: https://twitter.com/lane8music
+Spotify: https://sptfy.com/Lane8
+Instagram: http://instagram.com/lane8music
+
+Listen to Lane 8&apos;s latest album Reviver: https://thisneverhappened.ffm.to/reviver
+
+Follow This Never Happened
+Spotify: https://thisneverhappened.ffm.to/spotify
+Apple Music: https://thisneverhappened.ffm.to/apple
+Soundcloud: https://soundcloud.com/thisneverhappenedlabel
+Facebook:  https://facebook.com/thisneverhappenedlabel
+Instagram: https://instagram.com/thisneverhappened
+Twitter: https://twitter.com/tnhlabel
+
+Discover the latest releases from This Never Happened: https://thisneverhappened.ffm.to/playlist</itunes:summary>
+      <itunes:duration>10976</itunes:duration>
+      <itunes:author>This Never Happened</itunes:author>
+      <guid>AUw40tCSj0g</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 03 Oct 2022 04:16:15 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/AUw40tCSj0g.mp3" length="10976" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>METHOD // DRUM &amp; BASS | WORKOUT Drum &amp; Bass Mix 2020 - Mixed by METHOD</title>
+      <itunes:summary>What a year for drum &amp; bass.. Here&apos;s my selection of the best of 2019! 
+
+See the below links for my DJ equipment (and support me at the same time :D):
+• DJ Mixer &amp; software: https://amzn.to/3wKWFeJ
+• Audio Interface: https://amzn.to/3LKWwwf 
+• Headphones: https://amzn.to/38SB4b7
+
+FREE DOWNLOAD: https://soundcloud.com/method-dj/drum-bass-yearmix-2019-mixed-by-method
+Facebook: https://www.facebook.com/MethodDJ/ 
+
+Tracklist (also on video):
+1 Bring Me The Horizon - Mother Tongue (Sub Focus Remix) 
+2 NCT - The Fire [High Tea Music] 
+3 Delta Heavy feat. Modestep - Here With Me (The Prototypes Remix)
+4 Louder (Drumsound &amp; Bassline Smith Remix)
+5 Dj Fresh - Louder (Fliwo Remix) 
+6 Maduk - Feel Good
+7 Keeno - Daydreaming (feat. Kailaa) 
+8 Wilkinson - Machina 
+9 Netsky feat. Emeli Sandé - Thunder
+10 Crissy Criss x WiDE AWAKE - Real
+11 Sub Focus &amp; Wilkinson - Illuminate 
+12 Dimension - Love to Me
+13 Sub Focus - Solar System 
+14 Metrik - Fatso
+15 UK Apache, SHY FX feat. IRAH - Original Nuttah 25 (feat. IRAH) (Chase &amp; Status Remix) 
+16 Delta Heavy - White Flag 
+17 Delta Heavy - White Flag VIP 
+18 T &amp; Sugah x Lexurus - No More 
+19 Dan Dakota, Ekko &amp; Sidetrack - We Let Em Go (Ekko &amp; Sidetrack Remix) 
+20 Wilkinson - All For You (Audio) ft. Karen Harding 
+21 Muzzy - Spectrum
+22 Modestep &amp; Popeska - Another Day
+23 1991 - Full Send
+24 Andromedik - First To Go (ft. Ayah Marar) 
+25 Pendulum - Hold Your Colour (Noisia remix)
+26 Elevate Muzzy &amp; Flite feat. Miss Trouble
+27 Matrix - Hold On (ft. Raphaella) 
+28 Lexurus - Make Me 
+29 Camo &amp; Krooked feat. Metrik - Aurora
+30 Technimatic - Holding On (ft. Matt Wilson) 
+31 Friction - Good To Me
+32 Culture Shock - Renaissance
+33 Dimension - Devotion
+34 Metrik - Gravity 
+35 Metrik - Freefall</itunes:summary>
+      <itunes:duration>2662</itunes:duration>
+      <itunes:author>METHOD // DRUM &amp; BASS</itunes:author>
+      <guid>hOphQuGyMKE</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 03 Oct 2022 22:33:48 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/hOphQuGyMKE.mp3" length="2662" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>PharrellWilliamsVEVO | Pharrell Williams - Happy (Video)</title>
+      <itunes:summary>Official Music Video for &quot;Happy&quot; by Pharrell Williams
+Listen to Pharrell: https://PharrellWilliams.lnk.to/listenYD
+
+Subscribe to the official Pharrell YouTube channel: https://PharrellWilliams.lnk.to/subscribeYD
+
+Watch more Pharrell videos: https://PharrellWilliams.lnk.to/listenYC/youtube
+
+Follow Pharrell:
+Facebook: https://PharrellWilliams.lnk.to/followFI
+Instagram: https://PharrellWilliams.lnk.to/followII
+Twitter: https://PharrellWilliams.lnk.to/followTI
+Website: https://PharrellWilliams.lnk.to/followWI
+Spotify: https://PharrellWilliams.lnk.to/followSI
+YouTube: https://PharrellWilliams.lnk.to/subscribeYD
+
+Chorus:
+(Because I&apos;m happy)
+Clap along if you feel like a room without a roof
+(Because I&apos;m happy)
+Clap along if you feel like happiness is the truth
+(Because I&apos;m happy)
+Clap along if you know what happiness is to you
+(Because I&apos;m happy)
+Clap along if you feel like that&apos;s what you wanna do
+
+#PharrellWilliams #Happy #GIRL</itunes:summary>
+      <itunes:duration>241</itunes:duration>
+      <itunes:author>PharrellWilliamsVEVO</itunes:author>
+      <guid>ZbZSe6N_BXs</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 06 Oct 2022 19:26:15 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/ZbZSe6N_BXs.mp3" length="241" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>TEDx Talks | Extreme Ownership | Jocko Willink | TEDxUniversityofNevada</title>
+      <itunes:summary>NOTE FROM TED: This talk contains a discussion of violence and warfare. We&apos;ve flagged this talk because it falls outside the content guidelines TED gives TEDx organizers. TEDx events are independently organized by volunteers. The guidelines we give TEDx organizers are described in more detail here: http://storage.ted.com/tedx/manuals/tedx_content_guidelines.pdf
+
+War is hell, but war is also a brutal teacher. War teaches you about brotherhood, honor, humility, and leadership. In this riveting talk, Jocko Willink explains from personal experience how war teaches you the most when things go wrong. Jocko asserts that when a team takes ownership of its problems, the problems get solved.
+
+JOCKO WILLINK is a decorated retired Navy SEAL officer, author of the #1 New York Times bestselling book Extreme Ownership: How U.S. Navy SEALs Lead and Win, host of the top-rated Jocko Podcast, and co-founder of Echelon Front, where he is a leadership instructor, speaker, and executive coach. Jocko spent 20 years in the U.S. Navy SEAL Teams, starting as an enlisted SEAL and rising through the ranks to become a SEAL officer. As commander of SEAL Team Three’s Task Unit Bruiser during the battle of Ramadi, he orchestrated SEAL operations that helped the “Ready First” Brigade of the US Army’s First Armored Division bring stability to the violent, war-torn city. Task Unit Bruiser became the most highly decorated Special Operations Unit of the Iraq War. Jocko returned from Iraq to serve as Officer-in-Charge of training for all West Coast SEAL Teams. 
+
+This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx</itunes:summary>
+      <itunes:duration>830</itunes:duration>
+      <itunes:author>TEDx Talks</itunes:author>
+      <guid>ljqra3BcqWM</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sat, 15 Oct 2022 21:13:27 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/ljqra3BcqWM.mp3" length="830" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Asso&apos;s Music | [MIX] Best Of METAL Drum And Bass</title>
+      <itunes:summary>Listen:
+
+Celldweller:
+https://soundcloud.com/celldweller
+
+Muzzy:
+https://soundcloud.com/muzzydnb
+
+Sullivan King:
+https://soundcloud.com/sullivankingmusic
+
+Pendulum:
+https://soundcloud.com/pendulum
+
+Camellia:
+https://www.youtube.com/user/camelliaxxglitch
+
+The Queenstons:
+https://www.youtube.com/user/lapfoxofficial/videos
+
+Muffler:
+https://soundcloud.com/djmuffler
+
+Receptor:
+https://soundcloud.com/receptormusic
+
+Zardonic:
+https://soundcloud.com/zardonic
+
+oneBYone:
+https://soundcloud.com/1by-one
+
+Dj Fresh:
+https://soundcloud.com/djfreshuk
+
+Killer Industries:
+https://soundcloud.com/killer_industries
+
+Spor:
+https://soundcloud.com/spor
+
+Dirtyphonics:
+https://soundcloud.com/dirtyphonics
+
+T &amp; Sugah:
+https://soundcloud.com/t-and-sugah
+
+Jerico:
+https://soundcloud.com/jericos-law
+
+GoMad! &amp; Monster:
+https://soundcloud.com/gomadandmonster
+
+Dub Elements:
+https://soundcloud.com/dub-elements
+
+Dieselboy:
+https://soundcloud.com/dieselboy
+
+Counterstrike:
+https://soundcloud.com/counterstrike
+
+ShockOne:
+https://soundcloud.com/shockone
+
+John B:
+https://soundcloud.com/johnb
+
+Int Company:
+https://soundcloud.com/int_company
+
+The Qemists:
+https://soundcloud.com/theqemists
+
+Kove:
+https://soundcloud.com/kove
+
+Hommarju:
+https://soundcloud.com/hommarju
+
+Voicians:
+https://soundcloud.com/voicians
+
+Teddy Killerz:
+https://soundcloud.com/teddykillerz
+
+Bad District:
+https://soundcloud.com/baddistrict
+
+Delta Heavy:
+https://soundcloud.com/deltaheavyuk
+
+JKream:
+https://soundcloud.com/jkream
+
+Andrew P:
+https://www.youtube.com/user/nineth0usand/featured
+
+Riot 87:
+https://soundcloud.com/riot87music
+
+Christ:
+https://soundcloud.com/christ_dnb
+
+Raizer:
+https://soundcloud.com/raizer-3
+
+Nutronic:
+https://soundcloud.com/nutronicmusic
+
+Gridlok:
+https://soundcloud.com/gridlokdnb
+
+Prolix:
+https://soundcloud.com/prolixuk
+
+Gydra:
+https://soundcloud.com/gydramusic
+
+Genzo:
+https://soundcloud.com/dj-genzo
+
+Maztek:
+https://soundcloud.com/maztek
+
+I&apos;m just sharing and not monetizing the video. If you&apos;re a producer and still want your song removed , just contact me at 
+&quot; Royaldeluxe99@gmail.com &quot;; I&apos;ll remove your song as fast as possible.</itunes:summary>
+      <itunes:duration>3606</itunes:duration>
+      <itunes:author>Asso&apos;s Music</itunes:author>
+      <guid>VeOwRPenkLY</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sat, 15 Oct 2022 21:45:42 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/VeOwRPenkLY.mp3" length="3606" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>MrDantesmith | Jay-Z, Rihanna, Es Posthumis - Run This Town -Posthumus Zone -NFL Super Bowl Intro]</title>
+      <itunes:summary>VIEW IN HD. Jay-Z, Rihanna,Es Posthumis - Run This Town -Posthumus Zone -NFL Super Bowl Intro]</itunes:summary>
+      <itunes:duration>157</itunes:duration>
+      <itunes:author>MrDantesmith</itunes:author>
+      <guid>-F_iGK7Kv1M</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sun, 16 Oct 2022 22:16:20 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/-F_iGK7Kv1M.mp3" length="157" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>This Never Happened | Lane 8 Spring 2022 Mixtape</title>
+      <itunes:summary>Follow This Never Happened on Spotify: https://thisneverhappened.ffm.to/spotify
+Follow This Never Happened on Apple Music: https://apple.co/3jY2Cf1
+
+Tracklist:
+1 ID - ID
+2 Paris Rain - Lexer
+3 Lights Out - Fred again.., Romy &amp; HAAi
+4 Take Me There - Spada
+5 ID - ID
+6 Echoes Of Silence - Lexer
+7 ID - ID
+8 Floating Away - Coeus
+9 Ahura Mazda - D-Formation &amp; Masella
+10 Always - 16BL &amp; Wild Dark
+11 Valerie - biskuwi
+12 Between - Klur
+13 ID - ID
+14 Transmission - Eelke Kleijn
+15 ID - ID
+16 Vision (Original Mix) - The Dualz
+17 Love Ain&apos;t Over (Carlita Remix) - Chloé Caillet
+18 Lost for Words feat. Panama (Frost Remix) - Jerro
+19 India (Original Mix) - James Harcourt
+20 ID - ID
+21 Das kosmische Ballett - Deorbiting
+22 Counterpart (Original Mix) - Bonobo
+23 ID - ID
+24 ID - ID
+25 Remind Me - Helsloot
+26 ID - ID
+27 ID - ID
+28 Nobody Else - PRAANA &amp; Julia Church
+29 ID - ID
+30 Light Beam - Tinlicker
+31 Age of Phase (Original Mix) - Bonobo
+32 Jupiter Jellyfish - Steve Bug &amp; Matthias Tanzmann
+33 ID - ID
+34 Alive (Khrebto Extended Remix) - Kasablanca
+35 lOnDn - EMBRZ
+36 ID - ID
+37 Red Lights feat. Emmit Fenn (EMBRZ Remix) - Lane 8
+38 Salt (Extended Mix) - ATRIP
+39 Here To Stay - Maga, Sean Doron, Tim Engelhardt
+40 Venus Trip (Original Mix) - The Dualz
+41 Charlie Goes Bananas (Extended Mix) - Fabrication
+42 Closer (Original Mix) - Bonobo
+43 ID - ID
+44 Lost Times (Original Mix) - Vitalic
+
+Follow This Never Happened
+Spotify: https://thisneverhappened.ffm.to/spotify
+Apple Music: https://thisneverhappened.ffm.to/apple
+Soundcloud: https://soundcloud.com/thisneverhappenedlabel
+Facebook:  https://facebook.com/thisneverhappenedlabel
+Instagram: https://instagram.com/thisneverhappened
+Twitter: https://twitter.com/tnhlabel
+
+Discover the latest releases from This Never Happened: https://thisneverhappened.ffm.to/playlist
+
+Follow Lane 8
+Website: http://www.lane8music.com
+Facebook: https://facebook.com/lane8music
+Twitter: https://twitter.com/lane8music
+Spotify: https://sptfy.com/Lane8
+Instagram: http://instagram.com/lane8music
+
+Listen to Lane 8&apos;s latest album Reviver: https://thisneverhappened.ffm.to/reviver</itunes:summary>
+      <itunes:duration>10296</itunes:duration>
+      <itunes:author>This Never Happened</itunes:author>
+      <guid>tqjdcdzBxZQ</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Wed, 26 Oct 2022 00:25:11 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/tqjdcdzBxZQ.mp3" length="10296" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Two Friends | Two Friends - Big Bootie Mix, Vol. 22</title>
+      <itunes:summary>BIG BOOTIE MERCH AVAILABLE NOW! http://smarturl.it/merchbbm
+
+Tracklist: https://smarturl.it/BB22Tracklist
+
+Text us +1-323-310-1431‬
+
+2023 &apos;PLANET TWO FRIENDS&apos; TOUR DATES:
+http://twofriendsmusic.com/tour
+5/12 Vancouver, BC
+5/25 Denver, CO
+5/27 Dallas, TX
+5/28 Austin, TX
+6/6 St. Louis, MO
+6/7 Indianapolis, IN
+6/8 Columbus, OH
+6/9 Detroit, MI
+6/12 Cleveland, OH
+6/14 Pittsburgh, PA
+6/16 Boston, MA
+6/17 Philadelphia PA
+6/22 Charlotte, NC
+6/23 Washington, DC
+6/24 Washington, DC
+6/27 Newport, KY
+6/29 Charleston, SC
+6/30 Atlanta, GA
+7/1 Nashville, TN
+7/8 NYC, NY
+
+Video by Ola Austnes &amp; Nightride Visuals
+https://youtube.com/troublesolver​
+https://www.instagram.com/nightridevisuals
+
+Two Friends IG: instagram.com/twofriends
+Two Friends Twitter: twitter.com/twofriendsmusic
+Two Friends Spotify: smarturl.it/2FSpotify</itunes:summary>
+      <itunes:duration>3769</itunes:duration>
+      <itunes:author>Two Friends</itunes:author>
+      <guid>sm3bt4Q39b8</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 27 Oct 2022 01:22:02 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/sm3bt4Q39b8.mp3" length="3769" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>David Guetta | David Guetta &amp; Bebe Rexha - I&apos;m Good (Blue) [Oliver Heldens remix] VISUALIZER</title>
+      <itunes:summary>Stream/Download &quot;I&apos;m Good (Blue) [Oliver Heldens Remix]&quot; by David Guetta and Bebe Rexha: https://davidguetta.lnk.to/ImGoodOHremix
+
+🔔 Subscribe to be notified for new videos ➡️ https://davidguetta.lnk.to/YouTube​ 🔔 
+
+#davidguetta #beberexha #imgood 
+
+Follow David Guetta:
+Instagram: https://www.instagram.com/davidguetta/
+TikTok: https://www.tiktok.com/@davidguetta
+Twitter: https://twitter.com/DavidGuetta
+Facebook: https://www.facebook.com/DavidGuetta/
+Website: https://davidguetta.com/ 
+
+Follow Bebe Rexha:
+Instagram: https://www.instagram.com/beberexha/
+TikTok: https://www.tiktok.com/@beberexha
+Twitter: https://twitter.com/BebeRexha
+Facebook: https://www.facebook.com/beberexha
+Website: https://www.beberexha.com/
+
+Follow Oliver Heldens:
+Instagram: https://www.instagram.com/oliverheldens/
+Twitter: https://twitter.com/OliverHeldens
+Facebook: https://www.facebook.com/OliverHeldens/
+Website: https://oliverheldens.com</itunes:summary>
+      <itunes:duration>185</itunes:duration>
+      <itunes:author>David Guetta</itunes:author>
+      <guid>WAarGO1xtSI</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sat, 29 Oct 2022 01:02:07 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/WAarGO1xtSI.mp3" length="185" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Logan Macneil | Stormont House is Alright - Big Wood and LoMac</title>
+      <itunes:summary>Its big wood and lomac comin back round twooo
+
+Yeahh
+
+[Chorus:]
+zacks got pecks
+travis aint nice
+And ty could bust windows and fight 
+Baby we could party ever night (all night)
+yeah cus stormont house is alright(we&apos;re tight)
+Yeahh
+Late night food
+So great its so right
+let&apos;s hit up oasis tonight
+yeah cus stormont house is alright(we&apos;re tight)
+Baby we could party ever night (all night)
+Yeahh
+
+[Verse 1:]
+Anytime you want to
+come down to stormont house you
+without even tryin&apos; all your dreams are gonna come true
+neil is retarded I swear 
+and hey he&apos;s got really dirty facial hair
+Yeahh
+
+[Hook:]
+we like ta pawty
+shootin bacardi
+long as 3rd floor is tight we don&apos;t need nobody
+we got what you wanted
+beers and chronic
+Till candy come and say be quiet 
+
+zacks got pecks
+travis aint nice
+And ty could bust windows and fight 
+Baby we could party ever night (all night)
+yeah cus stormont house is alright(we&apos;re tight)
+Yeahh
+Late night food
+So great its so right
+let&apos;s hit up oasis tonight
+yeah cus stormont house is alright(we&apos;re tight)
+Baby we could party ever night (all night)
+Yeahh
+
+
+[Verse 2:]   
+Stormont is the hottest
+Love the way we drop it
+jeff&apos;s so hood 
+Coulda sworn he came from compton
+russel house is pure shit
+And frontenac is our bitch 
+Errbody wanna live in stormont cus we got it
+And maddi aint neva eva gonna be wanted
+as long as she&apos;s in dundas she&apos;s gonna be not missed
+tims sick
+marc&apos;s whipped _destroyer don&apos;t like it 
+And Rachel is a knockout 
+dylans got a safety kit
+3rd floor can get what we want
+and riley&apos;s a whore
+Bang any slut he want
+I know you ain&apos;t never seen a chick like kat
+get over the flu so quick like that 
+
+[Hook:]
+we like ta pawty
+shootin bacardi
+long as 3rd floor is tight we don&apos;t need nobody
+we got what you wanted
+beers and chronic
+Till candy come and say be quiet 
+
+[Chorus:]
+zacks got pecks
+travis aint nice
+And ty could bust windows and fight 
+Baby we could party ever night (all night)
+yeah cus stormont house is alright(we&apos;re tight)
+Yeahh
+Late night food
+So great its so right
+let&apos;s hit up oasis tonight
+yeah cus stormont house is alright(we&apos;re tight)
+Baby we could party ever night (all night)
+Yeahh
+
+[Verse 3:]
+I&apos;m talkin ellen is sick
+And rob&apos;s so nice
+be glad you got stormont in yo life
+The place get so loud
+it feels so right
+be glad you got stormont in yo life
+That&apos;s right 
+
+[Hook:]
+we like ta pawty
+shootin bacardi
+long as 3rd floor is tight we don&apos;t need nobody
+we got what you wanted
+beers and chronic
+Till candy come and say be quiet
+
+[Chorus:]
+zacks got pecks
+travis aint nice
+And ty could bust windows and fight 
+Baby we could party ever night (all night)
+yeah cus stormont house is alright(we&apos;re tight)
+Yeahh
+Late night food
+So great its so right
+let&apos;s hit up oasis tonight
+yeah cus stormont house is alright(we&apos;re tight)
+Baby we could party ever night (all night)
+Yeahh</itunes:summary>
+      <itunes:duration>250</itunes:duration>
+      <itunes:author>Logan Macneil</itunes:author>
+      <guid>9SasgcC76gU</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sat, 29 Oct 2022 01:03:10 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/9SasgcC76gU.mp3" length="250" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Two Friends | Two Friends - Big Bootie Mix, Vol. 21</title>
+      <itunes:summary>BIG BOOTIE MERCH AVAILABLE NOW! http://smarturl.it/merchbbm
+
+FREE DOWNLOAD: http://smarturl.it/BB21Download
+
+TRACKLIST: http://smarturl.it/BB21Tracklist)
+
+Text us +1-323-310-1431‬
+
+2022 TOUR DATES:
+http://twofriendsmusic.com/tour
+5/27 Vancouver, BC
+6/17 Miami, FL 
+6/30 Toronto, ON
+7/1 Toronto, ON
+7/2 Charleston, SC
+7/9 Atlantic City, NJ
+7/16 Denver, CO 
+8/4 Montreal, QC 
+8/6 Baltimore, MD 
+8/19 Grand Rapids, MI
+9/2 Chicago, IL
+10/28 Berkeley, CA
+12/3 Cancun, MX
+
+Video by Ola Austnes &amp; Nightride Visuals
+https://youtube.com/troublesolver​
+https://www.instagram.com/nightridevisuals
+
+Two Friends IG: instagram.com/twofriends
+Two Friends Twitter: twitter.com/twofriendsmusic
+Two Friends Spotify: smarturl.it/2FSpotify</itunes:summary>
+      <itunes:duration>3804</itunes:duration>
+      <itunes:author>Two Friends</itunes:author>
+      <guid>7BStvdEjZpY</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sat, 29 Oct 2022 02:41:05 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/7BStvdEjZpY.mp3" length="3804" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Two Friends | Two Friends - Big Bootie Mix, Vol. 20</title>
+      <itunes:summary>BIG BOOTIE MERCH AVAILABLE NOW! http://smarturl.it/merchbbm
+
+FREE DOWNLOAD: http://smarturl.it/BB20Download
+
+TRACKLIST: http://smarturl.it/BB20Tracklist
+
+Text us +1-323-310-1431‬
+
+Hit us at team@twofriendsmusic.com for clean versions of the mixes!
+
+2022 TOUR DATES:
+http://twofriendsmusic.com/tour
+3.26.22 Los Angeles, CA
+4.02.22 Seattle, WA
+4.09.22 Cayce, SC
+4.09.22 Atlantic City, NJ
+4.22.22 Orlando, FL
+5.14.22 Oakland, CA
+5.27.22 Vancouver, BC
+6.30.22 Toronto, ON
+7.01.22 Toronto, ON
+9.02.22 Chicago, IL
+
+Video by Ola Austnes &amp; Nightride Visuals
+https://youtube.com/troublesolver​
+https://www.instagram.com/nightridevisuals
+
+Two Friends IG: instagram.com/twofriends
+Two Friends Twitter: twitter.com/twofriendsmusic
+Two Friends Spotify: smarturl.it/2FSpotify</itunes:summary>
+      <itunes:duration>3675</itunes:duration>
+      <itunes:author>Two Friends</itunes:author>
+      <guid>Rk4QkgIFhI4</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Tue, 01 Nov 2022 21:27:37 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Rk4QkgIFhI4.mp3" length="3675" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Two Friends | Two Friends - Big Bootie Mix, Vol. 19</title>
+      <itunes:summary>BIG BOOTIE MERCH AVAILABLE NOW! http://shop.twofriendsmusic.com
+
+FREE DOWNLOAD: https://smarturl.it/BB19Download​
+
+TRACKLIST: http://smarturl.it/BB19Tracklist​
+
+Text us +1-323-310-1431‬
+
+Hit us at team@twofriendsmusic.com for clean versions of the mixes!
+
+ADVENTURELAND 2022 TOUR DATES:
+http://twofriendsmusic.com/tour
+1.14.22 Austin, TX
+1.15.22 Houston, TX
+1.18.22 Dallas, TX
+1.20.22 Nashville, TN
+1.21.22 Charlotte, NC
+1.22.22 Atlanta, GA
+1.24.22 Raleigh, NC
+1.29.22 New York City, NY
+2.02.22 Philadelphia, PA
+2.05.22 Washington, DD
+2.08.22 Pittsburgh, PA
+2.10.22 Montreal, QC
+2.11.22 Toronto, ON
+2.12.22 Detroit, MI
+2.15.22 Mashantucket, CT
+2.19.22 Boston, MA
+2.22.22 Indianapolis, IN
+2.23.22 Columbus, OH
+2.24.22 Cleveland, OH
+2.25.22 Chicago, IL
+2.26.22 Minneapolis, MN
+3.01.22 St. Louis, MO
+3.04.22 Denver, CO
+3.26.22 Los Angeles, CA
+4.02.22 Seattle, WA
+5.14.22 Oakland, CA
+
+Video by Ola Austnes
+https://youtube.com/troublesolver​
+
+Two Friends IG: http://instagram.com/twofriendsmusic​
+Two Friends Twitter: http://twitter.com/twofriendsmusic​
+Two Friends Spotify: http://smarturl.it/2FSpotify</itunes:summary>
+      <itunes:duration>3642</itunes:duration>
+      <itunes:author>Two Friends</itunes:author>
+      <guid>p5VZcki8sUs</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Fri, 04 Nov 2022 02:39:02 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/p5VZcki8sUs.mp3" length="3642" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Two Friends | Two Friends - Big Bootie Mix, Vol. 18</title>
+      <itunes:summary>BIG BOOTIE MERCH AVAILABLE NOW! http://smarturl.it/merchbbm
+
+FREE DOWNLOAD: https://smarturl.it/BB18Download
+
+TRACKLIST: http://smarturl.it/BB18Tracklist
+
+Text us +1-323-310-1431‬
+
+Video by Ola Austnes
+https://youtube.com/troublesolver
+
+Two Friends IG: http://instagram.com/twofriendsmusic
+Two Friends Twitter: http://twitter.com/twofriendsmusic
+Two Friends Spotify: http://smarturl.it/2FSpotify</itunes:summary>
+      <itunes:duration>3352</itunes:duration>
+      <itunes:author>Two Friends</itunes:author>
+      <guid>TPP6OF3Fz4A</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Fri, 04 Nov 2022 02:39:32 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/TPP6OF3Fz4A.mp3" length="3352" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Learn Spanish with SpanishPod101.com | 35 Minutes of Spanish Conversation Practice - Improve Speaking Skills</title>
+      <itunes:summary>This is the best video to get started with Spanish daily conversations! https://bit.ly/2Is1XTh Click here to access personalized lessons, tons of video series, wordlists and more!
+
+Step 1: Go to https://bit.ly/2Is1XTh 
+Step 2: Sign up for a Free Lifetime Account - No money, No credit card required
+Step 3: Achieve Your Learning Goal and master Spanish the fast, fun and easy way! 
+
+In this video, you’ll learn all the words and phrases you need to improve your Spanish speaking skills and be able to have a conversation with a Spanish native speaker.. This is THE place to start if you want to start learning Spanish, and improve both your listening and speaking skills.
+
+Follow us here:
+■ Facebook: https://www.facebook.com/SpanishPod101
+■ Instagram: https://www.instagram.com/SpanishPod101
+■ Twitter: https://twitter.com/SpanishPod101
+
+Also, please LIKE, SHARE and COMMENT on our videos! We really appreciate it. Thanks!
+
+#Spanish #LearnSpanish #Spain or another Spanish speaking country #SpanishLanguage #SpanishPod101</itunes:summary>
+      <itunes:duration>2103</itunes:duration>
+      <itunes:author>Learn Spanish with SpanishPod101.com</itunes:author>
+      <guid>7FMZH0imNKU</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Sat, 05 Nov 2022 20:49:00 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/7FMZH0imNKU.mp3" length="2103" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Two Friends | Two Friends - Big Bootie Mix, Vol. 11</title>
+      <itunes:summary>Big Bootie Mix, Vol. 11
+
+FREE DOWNLOAD: http://twofriendsmusic.com/bb11
+
+TRACKLIST: http://1001.tl/2nvzlh2k
+
+Booking: bookings@twofriendsmusic.com
+Inquiries: info@twofriendsmusic.com
+
+http://www.facebook.com/twofriendsmusic
+http://soundcloud.com/two-friends
+http://www.twitter.com/twofriendsmusic
+http://www.instagram.com/twofriendsmusic
+http://www.twofriendsmusic.com/snapchat</itunes:summary>
+      <itunes:duration>3662</itunes:duration>
+      <itunes:author>Two Friends</itunes:author>
+      <guid>zK6oOJ1wz8k</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 17 Nov 2022 19:56:01 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/zK6oOJ1wz8k.mp3" length="3662" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Learn Spanish with SpanishPod101.com | 2 Hours of Daily Spanish Conversations - Spanish Practice for ALL Learners</title>
+      <itunes:summary>This is the best video to get started with Spanish daily conversations! https://goo.gl/idExzP Click here to access personalized lessons, tons of video series, wordlists and more! ↓Check how below↓
+
+Step 1: Go to https://goo.gl/idExzP 
+Step 2: Sign up for a Free Lifetime Account - No money, No credit card required
+Step 3: Achieve Your Learning Goal and master Spanish the fast, fun and easy way! 
+
+In this video, you’ll challenge your Spanish listening comprehension skills. You will listen to small dialogues to take you from the beginner to the advanced level. Those dialogues are made by Spanish native speakers. This is THE place to start if you want to start learning Spanish, and improve both your listening and speaking skills.
+
+Follow us here:
+- Facebook : https://www.facebook.com/SpanishClass101 
+- Twitter : https://twitter.com/SpanishClass101</itunes:summary>
+      <itunes:duration>7599</itunes:duration>
+      <itunes:author>Learn Spanish with SpanishPod101.com</itunes:author>
+      <guid>lO9X-7beRa8</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 21 Nov 2022 19:48:27 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/lO9X-7beRa8.mp3" length="7599" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Boiler Room | Fred again.. | Boiler Room: London</title>
+      <itunes:summary>Get the tracklist here: https://blrrm.tv/3zQvnoV
+
+The wait is over. UK super-producer Fred again.. makes his Boiler Room debut in London.
+
+► Listen to Boiler Room’s archive on Apple Music: https://apple.co/BoilerRoom
+► Shop Boiler Room clothing: https://blrrm.tv/shop
+► Subscribe to Boiler Room: https://blrrm.tv/YT</itunes:summary>
+      <itunes:duration>4305</itunes:duration>
+      <itunes:author>Boiler Room</itunes:author>
+      <guid>c0-hvjV2A5Y</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Fri, 25 Nov 2022 01:17:36 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/c0-hvjV2A5Y.mp3" length="4305" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>This Never Happened | Lane 8 Winter 2022 Mixtape</title>
+      <itunes:summary>Follow Lane 8
+Website: http://www.lane8music.com
+Facebook: https://facebook.com/lane8music
+Twitter: https://twitter.com/lane8music
+Spotify: https://sptfy.com/Lane8
+Instagram: http://instagram.com/lane8music
+
+Listen to Lane 8&apos;s latest album Reviver: https://thisneverhappened.ffm.to/reviver
+
+Follow This Never Happened
+Spotify: https://thisneverhappened.ffm.to/spotify
+Apple Music: https://thisneverhappened.ffm.to/apple
+Soundcloud: https://soundcloud.com/thisneverhappenedlabel
+Facebook:  https://facebook.com/thisneverhappenedlabel
+Instagram: https://instagram.com/thisneverhappened
+Twitter: https://twitter.com/tnhlabel
+
+Discover the latest releases from This Never Happened: https://thisneverhappened.ffm.to/playlist</itunes:summary>
+      <itunes:duration>11438</itunes:duration>
+      <itunes:author>This Never Happened</itunes:author>
+      <guid>ixbiN8QW5fo</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 05 Jan 2023 01:01:25 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/ixbiN8QW5fo.mp3" length="11438" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>mark normand | Mark Normand: Out To Lunch - Full Special</title>
+      <itunes:summary>In Mark’s third comedy hour he covers it all: Drinking, anxiety, gays, naughty words, trans, race &amp; the ladies. I don’t know if he’s right about any of it but he is completely out to lunch. 
+
+Mark has plenty of other stuff on the YouTubes, feel free to take a deep dive on his kooky content. 
+
+For dates go to marknormandcomedy.com
+His podcast: Tuesdays with Stories
+Audio Album:https://bit.ly/2zkLQVP
+Twitter: @marknorm 
+instagram: @marknormand
+Venmo: @mark-Normand 
+PayPal: HeresMarkk@yahoo.com 
+Merch: https://marknormandcomedy.itemorder.com/sale
+
+Mark Normand Full Special Don&apos;t Be Yourself https://itunes.apple.com/us/movie/amy-schumer-presents-mark-normand-dont-be-yourself/id1223610628
+Praise Allah
+
+Mark Normand is a fun-loving, New York comedian. Ok, I’m gonna brag a little here but hey, you’re on the site so that must mean you’re somewhat interested. I don’t know, I’ve just seen other comics do this. Ah screw you, I’m proud of these credits! Sorry, I got worked up there. (I just wanna be liked)
+
+So far, Mark has done a One-Hour Comedy Central special “Don’t Be Yourself”, a Comedy Central HALF HOUR special, has appeared on TBS’s CONAN 6 times,  Tonight Show with Jimmy Fallon, Late Show with Stephen Colbert, Showtime’s “Live at SXSW”, INSIDE AMY SCHUMER, TruTv, Best Week Ever, MTv, Last Comic Standing, @Midnight and released an album with Comedy Central records titled “Still Got It” (it’s not bad). This year, Mark took first place at the Great American Comedy Festival competition. In 2013 won Caroline’s March Madness competition, beating out 63 other comedians. And this is a real shocker for all of us, but he was also voted Village Voice’s “Best Comedian of 2013”, I know, right? In 2012, Mark appeared on “John Oliver’s New York Standup Show” on Comedy Central, and in 2011 was picked as one of Comedy Central’s “Comics to Watch.”
+
+Mark was born and raised in New Orleans, LA surprisingly to two normal parents. As a kid he spent most of his time shooting short films and wetting the bed. He started doing comedy right after college and quickly moved to New York. Mark now does comedy clubs and colleges across the country and has been involved in many festivals including Portland, Seattle, DC, Boston, Vancouver, Melbourne and in 2013 was featured as a New Face at the Montreal Comedy Festival.
+
+More annoying accolades that no one really cares about: Mark was named one of Comedy Central’s Comics To Watch for the 2011 New York Comedy Festival. Mark was also named Esquire’s “Best New Comedians 2012”, Splitsider’s “Top 10 Up and Coming Comedians on Each Coast”, and Time Out New York’s “21 New York Comedy Scene Linchpins”. Whew, sorry about all that.
+
+
+#MarkNormand #StandupComedy #OutTolunch</itunes:summary>
+      <itunes:duration>3239</itunes:duration>
+      <itunes:author>mark normand</itunes:author>
+      <guid>tDolNU89SXI</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Wed, 18 Jan 2023 02:33:56 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/tDolNU89SXI.mp3" length="3239" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>John Summit | John Summit Live @ Zamna Tulum</title>
+      <itunes:summary>The final hour of my sunrise set in the jungle at Zamna Tulum, enjoy :)</itunes:summary>
+      <itunes:duration>3828</itunes:duration>
+      <itunes:author>John Summit</itunes:author>
+      <guid>wwqqWzlrL6M</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 26 Jan 2023 12:23:16 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/wwqqWzlrL6M.mp3" length="3828" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Gilly and Keeves | Shane Gillis Live In Austin | Stand Up Comedy</title>
+      <itunes:summary>Shane Gillis’ debut special recorded live at The Creek and The Cave in Austin, TX.</itunes:summary>
+      <itunes:duration>2885</itunes:duration>
+      <itunes:author>Gilly and Keeves</itunes:author>
+      <guid>zKUpf1Vx0vs</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Tue, 28 Mar 2023 04:37:41 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/zKUpf1Vx0vs.mp3" length="2885" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Comedy Central Stand-Up | Sam Morril: Positive Influence - Full Special</title>
+      <itunes:summary>Sam Morril takes on babies, hardcore atheists and a woman who got really offended over his gator jokes.
+
+Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf
+
+Amy Schumer Presents Sam Morril: Positive Influence
+Original airdate: September 14, 2018
+
+#StandUp #SamMorril
+
+Subscribe to Comedy Central Stand-Up: https://www.youtube.com/channel/UCtw7q4SyOeoCwM1i_3x8lDg?sub_confirmation=1
+
+Watch more Comedy Central Stand-Up: https://www.youtube.com/standup
+
+Follow Comedy Central Stand-Up:
+Twitter: https://twitter.com/standup
+Facebook: https://www.facebook.com/standup
+Instagram: https://www.instagram.com/ccstandup
+
+Watch full Comedy Central stand-up specials: http://www.cc.com/shows/stand-up
+
+Comedy Central Stand-Up: Anti-Bias Statement: https://www.cc.com/info/k32ti7/ccsu-anti-bias-statement</itunes:summary>
+      <itunes:duration>3359</itunes:duration>
+      <itunes:author>Comedy Central Stand-Up</itunes:author>
+      <guid>OUN_f7xKnpM</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Tue, 09 May 2023 02:26:34 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/OUN_f7xKnpM.mp3" length="3359" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Comedy Central Stand-Up | Sam Morril: I Got This - Full Special</title>
+      <itunes:summary>Sam Morril compares wearing a condom to doing volunteer work, wonders if murderers critique each other’s work and recalls befriending a vigilante in Cleveland.
+
+More from Sam Morril: 
+YouTube: https://www.youtube.com/smorril
+Facebook: https://www.facebook.com/Sam-Morril-238894056171263/
+Twitter: https://twitter.com/sammorril
+Instagram: https://www.instagram.com/sammorril/
+Tik Tok: https://www.tiktok.com/@sammorril Subscribe to Comedy Central Stand-Up: https://www.youtube.com/channel/UCtw7q4SyOeoCwM1i_3x8lDg?sub_confirmation=1
+
+Watch more Comedy Central Stand-Up: https://www.youtube.com/standup
+  
+Follow Comedy Central Stand-Up:
+Twitter: https://twitter.com/standup
+Facebook: https://www.facebook.com/standup
+Instagram: https://www.instagram.com/ccstandup 
+
+Watch full Comedy Central stand-up specials: http://www.cc.com/shows/stand-up
+
+#SamMorril #StandUp #IGotThis .
+
+Comedy Central Stand-Up: Anti-Bias Statement: https://www.cc.com/info/k32ti7/ccsu-anti-bias-statement</itunes:summary>
+      <itunes:duration>2854</itunes:duration>
+      <itunes:author>Comedy Central Stand-Up</itunes:author>
+      <guid>4Xo3Fq7GGWk</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Tue, 09 May 2023 02:36:46 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/4Xo3Fq7GGWk.mp3" length="2854" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Comedy Central Stand-Up | Mark Normand: Don’t Be Yourself - Full Special</title>
+      <itunes:summary>Mark Normand dives deep into the neuroses of modern life, exploring the hypocrisies of political correctness, dating in the age of distraction and how being yourself is actually a terrible idea.
+
+Amy Schumer Presents Mark Normand: Don’t Be Yourself
+
+Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf
+
+Original airdate: May 12, 2017
+
+#StandUp #MarkNormand
+
+Subscribe to Comedy Central Stand-Up: https://www.youtube.com/channel/UCtw7q4SyOeoCwM1i_3x8lDg?sub_confirmation=1
+
+Watch more Comedy Central Stand-Up: https://www.youtube.com/standup
+
+Follow Comedy Central Stand-Up:
+Twitter: https://twitter.com/standup
+Facebook: https://www.facebook.com/standup
+Instagram: https://www.instagram.com/ccstandup
+
+Watch full Comedy Central stand-up specials: http://www.cc.com/shows/stand-up
+
+Comedy Central Stand-Up: Anti-Bias Statement: https://www.cc.com/info/k32ti7/ccsu-anti-bias-statement</itunes:summary>
+      <itunes:duration>3345</itunes:duration>
+      <itunes:author>Comedy Central Stand-Up</itunes:author>
+      <guid>LHSTW5uPXBY</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 22 May 2023 04:29:45 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/LHSTW5uPXBY.mp3" length="3345" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Adewale Ogunjimi | Dave Chappelle  For What It&apos;s Worth Full   YouTube</title>
+      <itunes:summary>Full video. stand up comedy</itunes:summary>
+      <itunes:duration>3459</itunes:duration>
+      <itunes:author>Adewale Ogunjimi</itunes:author>
+      <guid>JxhG3H2-EIE</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 22 May 2023 04:32:33 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/JxhG3H2-EIE.mp3" length="3459" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Jordan | Killin&apos; Them Softly - Dave Chappelle (2000) HD</title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>3936</itunes:duration>
+      <itunes:author>Jordan</itunes:author>
+      <guid>FclScfPoKes</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 22 May 2023 04:33:25 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/FclScfPoKes.mp3" length="3936" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Declutter The Mind | 10 Minute Unguided Meditation Timer</title>
+      <itunes:summary>10 min unguided meditation timer that is silent and uses Tibetan bowl chimes to let you know when you&apos;ve reached the half way point to your session, as well as letting you know when your practice has ended.</itunes:summary>
+      <itunes:duration>601</itunes:duration>
+      <itunes:author>Declutter The Mind</itunes:author>
+      <guid>Knyp824QSnA</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Tue, 30 May 2023 19:44:57 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Knyp824QSnA.mp3" length="601" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Uncensored TV | Bill Burr - Breaking bad | Full standup special</title>
+      <itunes:summary>Please subscribe and share
+
+
+bill burr
+bill burr breaking bad
+bill burr stand up</itunes:summary>
+      <itunes:duration>3123</itunes:duration>
+      <itunes:author>Uncensored TV</itunes:author>
+      <guid>Vn6MHmDo_Ck</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 26 Jun 2023 19:10:15 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/Vn6MHmDo_Ck.mp3" length="3123" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>gamers best | Bill Burr Stand Up Comedy  You People are all the Same</title>
+      <itunes:summary></itunes:summary>
+      <itunes:duration>4107</itunes:duration>
+      <itunes:author>gamers best</itunes:author>
+      <guid>2O2bKu-3U3U</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Mon, 26 Jun 2023 19:11:04 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/2O2bKu-3U3U.mp3" length="4107" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Joe List | Joe List: Enough For Everybody - FULL SPECIAL</title>
+      <itunes:summary>Hey folks, I’m back with my 3rd one hour comedy special in 3 years. I recorded it live at the village underground in New York City, it’s one of my favorite clubs in the world. I touch on a variety of topics including my wonderful marriage, my idiotic friends and my unattractive face. There’s some real silly stuff as well as some funny stories. It’s fun for the whole family. Check it out. Enjoy it, share it, leave a comment and send me a tasteful nude. I appreciate you reading this. 
+#JoeList #Comedy #comedyspecial 
+
+VENMO: JoeListComedy
+Subscribe, like, comment, share. Thank you. Farts.
+
+Watch Joe List&apos;s Comedy Special &apos;This Year&apos;s Material&apos; https://www.youtube.com/watch?v=0MOGB0nBHpg
+More from Joe List: 
+YouTube: https://www.youtube.com/channel/UCZPJ...
+Facebook: https://www.facebook.com/comedianjoel...
+Twitter: https://twitter.com/JoeListComedy
+Instagram: https://www.instagram.com/joelistcomedy/
+
+In Loving Memory of Brennan Houston
+
+Written and Performed by
+Joe List
+
+Directed by
+Jason Katz
+
+Executive Produced by
+Jason Katz
+Ryan Devir
+Liz Furiati
+
+Produced by
+​⁠@2buffoons 
+
+Camera Operators
+Stephen Nahorniak
+Raj Belani
+Jason Katz
+Erik Scott
+
+Edited by
+Carlos Almonte
+
+Color Grading Facility
+Unbreakable Post
+
+Additional Editing
+Jason Katz
+
+Sound Recordist
+Tony Deyo
+
+Post Production Sound
+Ghost Runner Studios
+
+Hair and Makeup
+Kristen Falcone
+
+Photographer
+Matthew Salacuse
+
+Opener
+Matt Wayne
+
+Filmed at
+The Village Underground &amp; Comedy Cellar
+
+Special thanks:
+Sarah Tollemache 
+Colin Quinn
+
+Many many people have supported me, helped me and inspired me, here are a few (well a bunch) but not all. Thank you: (in no particular order)
+
+My Entire Family
+The Tollemache Family 
+The Houston Family
+Alan Lefkowitz
+Derek Walsh
+Erica Walsh
+Brooke Walsh
+Joey Walsh
+Louis CK
+Jason Kanter
+Nick DiPaolo
+Steven Rogers
+Andrew Schiavone 
+Matt Wayne
+Chris Walsh
+Isabel Hagen
+Jason Katz
+Keith Robinson
+Fannie Cohen
+Tommy Pucciani 
+Chris Burns
+Liz Furiarti 
+Raanan Hershberg
+Sam Morril
+Mark Normand
+Nick Griffin
+Robert Kelly
+Rich Vos
+Bill Scheft
+Patrick Holbert 
+Lindsay Adams 
+Fahim Anwar
+Luke Mones
+Vicki Tollemache
+Stavros Halkias
+Ari Shaffir
+Tom Dustin 
+H Foley
+Kevin Ryan
+Shane Gillis
+Chris Alan
+Dan Soder
+Luis J Gomez
+Bill Burr
+Ron Bennington 
+Chuck Staton
+Alex Adams
+Matthew Salacuse
+Patrick Milligan
+Estee Adoram 
+Jackson Shapiro
+Michael Shapiro 
+Greg Stone
+Mike Whitman
+Carlos Alcaraz
+Rafael Nadal
+
+Joe List began his comedy career in Boston, Massachusetts in 2000 just weeks after graduating from high school. Since that time he has been featured on The Late Show with David Letterman as well as multiple appearances on Conan. He’s featured in Season 2 of The Netflix Series “The Stand Ups”. In 2015 List was a finalist on NBC&apos;s Last Comic Standing and had his own Half Hour comedy special on Comedy Central. His albums &apos;So Far No Good&apos; and &apos;Are You Mad at Me?&apos; can be heard regularly on Sirius Radio. List is also the co-host of his own popular weekly podcast &apos;Tuesdays with Stories&apos;. When not headlining comedy clubs all over North America, List is a regular at the Comedy Cellar in New York City.</itunes:summary>
+      <itunes:duration>3550</itunes:duration>
+      <itunes:author>Joe List</itunes:author>
+      <guid>fkE8_bHaXiU</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Wed, 23 Aug 2023 19:13:23 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/fkE8_bHaXiU.mp3" length="3550" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Jack Fleming | Louis CK stand up</title>
+      <itunes:summary>standup comedy, stand up, standup comedy, standup, comedy, comedy, funny, funniest, best funnt comedy, funny,funniest,stage comedy,stage stad up, stand up, kathy griffins, jim jefferies,eddie griffin,russel peters, jim carrey,</itunes:summary>
+      <itunes:duration>2761</itunes:duration>
+      <itunes:author>Jack Fleming</itunes:author>
+      <guid>4udM9cjqCoM</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Wed, 23 Aug 2023 19:13:54 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/4udM9cjqCoM.mp3" length="2761" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Ari Shaffir | Ari Shaffir - JEW (2022) FULL SPECIAL</title>
+      <itunes:summary>This is my love letter to the culture and religion that raised me. I worked on it harder than I&apos;ve ever worked on anything. And I&apos;m giving it to all of you because I want you to have it. Please talk about it with each other. Share laughs with your friends and family while you talk about this special. Ari Shaffir: Jew was made to bring people together. Let&apos;s have some fun!
+
+VENMO: https://account.venmo.com/u/Ari-Shaffir1 or
+PAYPAL: https://paypal.me/AriShaffir2?country.x=US&amp;locale.x=en_US
+$uper Thank$ (located on the 3 dots next to like/share buttons).
+
+$how your thank$ the Jewi$h way.
+
+I spent 43% of my life savings to make this special. The deal with these YouTube specials is that comics can make them but we rely on you to pay us back or we just can&apos;t afford to do this. So now that you&apos;ve seen it, please help support this kind of independent standup. If you liked it a lot, let that guide you to throwing more dollars in. The standard for a so-so special should be about $7-$10. And this was no so-so special. This was the best thing I&apos;ve ever done and probably will ever do. So let your own income and your enjoyment of this massive undertaking and risk of mine guide you in how much you tip. Throw in those shekels, people! It&apos;s a mitzvah! And I guarantee you if I make my money back, I’ll be able to make more great stuff like this. Not just for myself but also for other comics. This is the Edinburgh Free Fringe model. After you see a show, people tip based on what they thought it was worth and how much they had to give. So base your donation on that. I’ll just be out here with my tip bucket.
+┈
+*ARI SHAFFIR LIVE 2023* 
+🎟 https://www.arishaffir.com/tour
+
+• Oct 21: Parx Casino, PA
+• Nov 01: Omaha, NE (sold out)
+• Nov 01: Omaha, NE (show added)
+• Nov 02: Minneapolis, MN
+• Nov 03: Madison, WIi
+• Nov 04: Chicago, IL (sold out)
+• Nov 04 Chicago, IL (show added)
+• Nov 05: Iowa City, IA
+• Nov 09: Kansas City, MO
+• Nov 07: Tulsa, OK
+• Nov 09: Kansas City, MO
+• Nov 10: Louisville, KY
+• Nov 11: Indianapolis, IN
+• Nov 12: St. Louis, MO
+• Nov 13: Ft. Wayne, IN (2nd show added) 
+• Dec 14-16 Tempe, AZ
+• Feb 02: Boston, MA (2nd show added)
+• Feb 03: Foxwoods, CT
+
+More dates being announced soon! 
+
+JEW merch: https://www.arishaffir.com/merch
+Instagram: https://www.instagram.com/arishaffir/
+Official Website: https://www.arishaffir.com/
+┈
+Directed by Eric Abrams (came up with the candle idea) https://www.instagram.com/bramsec/
+
+Set design by Lauren Helpern (Full queen. Makes me cry thinking about her design) http://www.laurenhelpern.com/
+
+Edited by Daniel Cotter (Best editor work with. Hella patient and hella creative) https://www.linkedin.com/in/daniel-cotter-2a537860
+
+Sound by Jon D’uva (Number one guy in the business) http://www.jonduva.com/
+
+Sound mix by Thomas Cassetta (Worked above and beyond because he&apos;s an artist)
+http://www.imdb.com/name/nm2934014
+
+Director of Photography Jordan Levy (He&apos;s been my guy since 2015. He gets it)
+https://www.jordanlevy.com/
+
+Lighting designer Paul Miller (Nailed the difficult task of lighting me in front of the candles)
+http://paulmillerlightingdesign.net/
+
+Recorded live at Roulette Intermedium in the home of the Jews in America; Brooklyn, NY
+┈
+Special thanks to Andrew Schulz for pulling me kicking and screaming into 2022 with how to package and promote a special on YouTube. He is as giving as any comedian in the world. And though what he does to Akaash&apos;s butt is abhorrent and wrong in most if not all world religions, he is nonetheless a gentlemen and a consistent and constant defender of the great art form of standup comedy.  @TheAndrewSchulz  @akaashsinghcomedy
+
+ #arishaffir #standupcomedy #arishaffirjew</itunes:summary>
+      <itunes:duration>5348</itunes:duration>
+      <itunes:author>Ari Shaffir</itunes:author>
+      <guid>y2YtIBYM4w0</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Wed, 23 Aug 2023 19:15:25 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/y2YtIBYM4w0.mp3" length="5348" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Netflix Is A Joke | 21 Minutes of Nate Bargatze | Netflix Is A Joke</title>
+      <itunes:summary>Check out some highlights from Nate Bargatze&apos;s specials.
+
+Subscribe: https://bit.ly/2Kncxw6
+
+About Netflix Is A Joke: The official hub of Netflix stand-up, comedy series, films, and all things funny — curated by the world’s most advanced algorithm and a depressed, yet lovable, cartoon horse. Their unlikely friendship is our story… 
+
+About Netflix: Netflix is the world&apos;s leading streaming entertainment service with 222 million paid memberships in over 190 countries enjoying TV series, documentaries, feature films and mobile games across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without commercials or commitments.
+
+Connect with Netflix Is A Joke: 
+Visit Netflix WEBSITE: http://nflx.it/29BcWb5 
+Like Netflix Is A Joke on FACEBOOK: https://bit.ly/2xD5zfu 
+Follow Netflix Is A Joke on TWITTER: https://bit.ly/2N6ENkx 
+Follow Netflix Is A Joke on INSTAGRAM: https://bit.ly/2VTQcxu</itunes:summary>
+      <itunes:duration>1307</itunes:duration>
+      <itunes:author>Netflix Is A Joke</itunes:author>
+      <guid>pGUhBzSgOxw</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Wed, 30 Aug 2023 23:42:16 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/pGUhBzSgOxw.mp3" length="1307" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Stepthos | Louis CK - Good Will Hunting</title>
+      <itunes:summary>uploading this because the only clip i could find of it online includes a previous unrelated bit</itunes:summary>
+      <itunes:duration>293</itunes:duration>
+      <itunes:author>Stepthos</itunes:author>
+      <guid>BHM2_uGeVlw</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 31 Aug 2023 00:25:42 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/BHM2_uGeVlw.mp3" length="293" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>LaughPlanet | Louis CK - One Night Stand | (2005 HBO Special)</title>
+      <itunes:summary>https://louisck.com/
+
+MERCH
+https://thelaughplanet.creator-spring.com/
+
+Buy Me a Cofee
+https://www.buymeacoffee.com/LaughPl
+
+Instagram: https://www.instagram.com/thelaughplanetofficial/
+Youtube Channel:  https://www.youtube.com/channel/UCiI_jyH_0yttWG-m5fBYGmA
+Twitter: https://twitter.com/laugh_planet
+Website: http://thelaughplanet.com
+
+Contact us: ash98jha@gmail.com (For video removal / Credits / Promotions)
+
+#Comedy #LaughPlanet</itunes:summary>
+      <itunes:duration>1684</itunes:duration>
+      <itunes:author>LaughPlanet</itunes:author>
+      <guid>eYerdokqDRk</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 31 Aug 2023 00:26:33 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/eYerdokqDRk.mp3" length="1684" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Mat Stone | Louis CK (2016) - Live at Madison Square Garden</title>
+      <itunes:summary>&quot;Live At Madison Square Garden&quot; is the 2016 Grammy-nominated audio from Louis&apos; sold-out performances at Madison Square Garden. Louis C.K. is a master at shedding light on uncomfortable, often unacknowledged corners of an audience&apos;s psyche and this album finds him at the peak of his game. Louis C.K. is the creator, star, writer, director, executive producer, and primary editor of the acclaimed FX comedy series Louie. He has won a 2012 Peabody Award and five Emmy awards, as well as numerous awards for The Chris Rock Show and Louie, as well as his stand-up specials Live at the Beacon Theater (2011) and Oh My God (2013). Louis won the Best Comedy Album Grammy for &quot;Hilarious&quot;.
+#comedy #laugh #standup</itunes:summary>
+      <itunes:duration>5188</itunes:duration>
+      <itunes:author>Mat Stone</itunes:author>
+      <guid>0hzffnxN0-E</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Thu, 31 Aug 2023 00:30:25 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/0hzffnxN0-E.mp3" length="5188" type="audio/mpeg"></enclosure>
+    </item>
+    <item>
+      <title>Comedy Central Stand-Up | Daniel Tosh - “The Floor is Lava” - Full Special</title>
+      <itunes:summary>Daniel Tosh finds a new use for cargo pants, tricks people at the airport and describes his idea for a new game show.
+
+Original airdate: July 25, 2003 
+
+Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf
+
+About Comedy Central Presents: 
+
+These half-hour specials showcased some of the best up-and-coming comedians of the moment. The show was a pivotal stepping stone for many of today’s stand-up stars, including Dave Chappelle, Patton Oswalt, Amy Schumer, Jim Gaffigan, Kevin Hart, Zach Galifianakis, Dane Cook, Bill Burr, Wanda Sykes and Maria Bamford.
+
+Paramount+ is here! Stream all your favorite shows now on Paramount+. Try it FREE at https://bit.ly/3qyOeOf
+
+#CCStandUp #ComedyCentral
+#StandUp #DanielTosh
+
+Subscribe to Comedy Central Stand-Up: https://www.youtube.com/channel/UCtw7q4SyOeoCwM1i_3x8lDg?sub_confirmation=1
+
+Watch more Comedy Central Stand-Up: https://www.youtube.com/standup
+
+Follow Comedy Central Stand-Up:
+Twitter: https://twitter.com/standup
+Facebook: https://www.facebook.com/standup
+Instagram: https://www.instagram.com/ccstandup
+
+Watch full Comedy Central stand-up specials: http://www.cc.com/shows/stand-up
+
+Comedy Central Stand-Up: Anti-Bias Statement: https://www.cc.com/info/k32ti7/ccsu-anti-bias-statement</itunes:summary>
+      <itunes:duration>1212</itunes:duration>
+      <itunes:author>Comedy Central Stand-Up</itunes:author>
+      <guid>v7t3rj_tbk4</guid>
+      <itunes:subtitle></itunes:subtitle>
+      <itunes:image href=""></itunes:image>
+      <pubDate>Tue, 05 Sep 2023 04:00:44 GMT</pubDate>
+      <enclosure url="https://hladun-site.s3-us-west-2.amazonaws.com/pod/v7t3rj_tbk4.mp3" length="1212" type="audio/mpeg"></enclosure>
     </item>
   </channel>
 </rss>

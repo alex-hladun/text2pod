@@ -40,25 +40,29 @@ export interface PodEpisode {
 }
 export const parseAndAdd = async (episode: PodEpisode) => {
   if (!config.bucketName) throw new Error("No bucket name");
-  const podFile = await getObject(config.bucketName, config.podcastFile); // Get existing podcast feed
+  try {
+    const podFile = await getObject(config.bucketName, config.podcastFile); // Get existing podcast feed
 
-  const parser = new XMLParser({ ignoreAttributes: false });
-  let parseJob: Podcast = parser.parse(podFile);
+    const parser = new XMLParser({ ignoreAttributes: false });
+    let parseJob: Podcast = parser.parse(podFile);
 
-  const itemList = parseJob.rss.channel.item;
+    const itemList = parseJob.rss.channel.item;
 
-  // Update XML file
-  const newItemList = [...itemList, episode];
-  const newPodFile = {
-    ...parseJob,
-    rss: {
-      ...parseJob.rss,
-      channel: { ...parseJob.rss.channel, item: newItemList },
-    },
-  };
+    // Update XML file
+    const newItemList = [...itemList, episode];
+    const newPodFile = {
+      ...parseJob,
+      rss: {
+        ...parseJob.rss,
+        channel: { ...parseJob.rss.channel, item: newItemList },
+      },
+    };
 
-  const builder = new XMLBuilder({ ignoreAttributes: false });
-  const xmlOutput = builder.build(newPodFile);
+    const builder = new XMLBuilder({ ignoreAttributes: false });
+    const xmlOutput = builder.build(newPodFile);
 
-  await putObject(config.bucketName, config.podcastFile, xmlOutput); // Write file to S3
+    await putObject(config.bucketName, config.podcastFile, xmlOutput); // Write file to S3
+  } catch (e) {
+    console.log(e);
+  }
 };

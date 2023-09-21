@@ -2,12 +2,12 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export const config = {
-  bucketName: process.env.bucketName,
+  bucketName: process.env.bucketName || "hladun-site",
   bucketRegion: "us-west-2",
-  podcastFile: "pod2.rss",
-  originationNumber: process.env.originationNumber,
-  pinpointApplicationId: process.env.pinpointApplicationId,
-  messageType: "TRANSACTIONAL",
+  podcastFile: process.env.podcastFileName || "pod2.rss",
+  originationNumber: process.env.originationNumber || "+19029036694",
+  pinpointApplicationId:
+    process.env.pinpointApplicationId || "6a22db7c3faa4asdkjlasdkasjdlkajsd",
 };
 
 export const ytRegExp = new RegExp(
